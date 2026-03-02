@@ -1,0 +1,1369 @@
+Category,Description,Inputs,Outputs,Status
+Rune Trades,Lem Cheap,"Lem Rune,qty=3,Antidote Potion","Fal Rune,Ko Rune,Lum Rune",EXISTING
+Rune Trades,Lem Fix,"Lem Rune,qty=2",Pul Rune,EXISTING
+Rune Trades,Pul Break,Pul Rune,"Lem Rune,Lem Rune",EXISTING
+Rune Trades,Pul Lem -> Um,"Pul Rune,Lem Rune",Um Rune,EXISTING
+Rune Trades,Um -> Pul Lem,Um Rune,"Pul Rune,Lem Rune",EXISTING
+Rune Trades,Pul Um -> Mal,"Um Rune,Pul Rune",Mal Rune,EXISTING
+Rune Trades,Mal -> Um Pul,Mal Rune,"Um Rune,Pul Rune",EXISTING
+Rune Trades,Mal Um -> Ist,"Mal Rune,Um Rune",Ist Rune,EXISTING
+Rune Trades,Ist -> Mal Um,Ist Rune,"Mal Rune,Um Rune",EXISTING
+Rune Trades,Ist Mal -> Gul,"Mal Rune,Ist Rune",Gul Rune,EXISTING
+Rune Trades,Gul -> Ist Mal,Gul Rune,"Ist Rune,Mal Rune",EXISTING
+Rune Trades,3 Ist -> Vex,"Ist Rune,qty=3",Vex Rune,EXISTING
+Rune Trades,Vex -> 3 Ist,Vex Rune,"Ist Rune,Ist Rune,Ist Rune",EXISTING
+Rune Trades,1 Vex 2 Ist -> Ohm,"Vex Rune,Ist Rune,qty=2",Ohm Rune,EXISTING
+Rune Trades,Ohm -> 1 Vex 2 Ist,Ohm Rune,"Vex Rune,Ist Rune,Ist Rune",EXISTING
+Rune Trades,Ohm Vex Ist -> Lo,"Ist Rune,Vex Rune,Ohm Rune",Lo Rune,EXISTING
+Rune Trades,Lo -> Ohm Vex Ist,Lo Rune,"Ohm Rune,Vex Rune,Ist Rune",EXISTING
+Rune Trades,3 Ohm -> Sur,"Ohm Rune,qty=3",Sur Rune,EXISTING
+Rune Trades,Sur -> 3 Ohm,Sur Rune,"Ohm Rune,Ohm Rune,Ohm Rune",EXISTING
+Rune Trades,Ber -> Sur Lo Vex,Ber Rune,"Sur Rune,Lo Rune,Vex Rune",EXISTING
+Rune Trades,Sur Lo Vex -> Ber,"Vex Rune,Lo Rune,Sur Rune",Ber Rune,EXISTING
+Rune Trades,Jah -> Ber Lo,Jah Rune,"Ber Rune,Lo Rune",EXISTING
+Rune Trades,Ber Lo -> Jah,"Lo Rune,Ber Rune",Jah Rune,EXISTING
+Rune Trades,Cham -> Vex Gul Ist,Cham Rune,"Vex Rune,Gul Rune,Ist Rune",EXISTING
+Rune Trades,Vex Gul Ist -> Cham,"Gul Rune,Ist Rune,Vex Rune",Cham Rune,EXISTING
+Rune Trades,Zod -> Ohm Vex Gul,Zod Rune,"Ohm Rune,Vex Rune,Gul Rune",EXISTING
+Rune Trades,Ohm Vex Gul -> Zod,"Gul Rune,Vex Rune,Ohm Rune",Zod Rune,EXISTING
+Gem Market,Lem for 3 Hel,"Lem Rune,Antidote Potion,Town Portal Scroll","Hel Rune,Hel Rune,Hel Rune",EXISTING
+Gem Market,Lem Cash,"Lem Rune,Antidote Potion","Perfect Diamond,Perfect Emerald,Perfect Topaz",EXISTING
+Gem Market,10 Diamond -> Pul,"Perfect Diamond,qty=10,Stamina Potion",Pul Rune,EXISTING
+Gem Market,10 Emerald -> Pul,"Perfect Emerald,qty=10,Stamina Potion",Pul Rune,EXISTING
+Gem Market,10 Sapphire -> Pul,"Perfect Sapphire,qty=10,Stamina Potion",Pul Rune,EXISTING
+Gem Market,10 Topaz -> Pul,"Perfect Topaz,qty=10,Stamina Potion",Pul Rune,EXISTING
+Gem Market,10 Ruby -> Um,"Perfect Ruby,qty=10,Stamina Potion",Um Rune,EXISTING
+Gem Market,10 Skull -> Um,"Perfect Skull,qty=10,Stamina Potion",Um Rune,EXISTING
+Gem Market,10 Amethyst -> Mal,"Perfect Amethyst,qty=10,Stamina Potion",Mal Rune,EXISTING
+Gem Market,Lem -> 3 P Sapphires,"Lem Rune,Stamina Potion,Identify Scroll","Perfect Sapphire,Perfect Sapphire,Perfect Sapphire",EXISTING
+Gem Market,Lem -> 3 P Skulls,"Lem Rune,Antidote Potion,Identify Scroll","Perfect Skull,Perfect Skull,Perfect Skull",EXISTING
+Gem Market,Lem -> 3 P Rubies,"Lem Rune,Thawing Potion,Identify Scroll","Perfect Ruby,Perfect Ruby,Perfect Ruby",EXISTING
+Gem Market,Pul -> 3 P Amethysts,"Pul Rune,Stamina Potion,Identify Scroll","Perfect Amethyst,Perfect Amethyst,Perfect Amethyst",EXISTING
+Gem Market,10 of a kind El-Fal -> Um,"10x rune, Stamina potion ",Um Rune,EXISTING
+UniqueSet Market,Ist -> Rainbow Facet,"Ist Rune,Jewel,Stamina Potion",Rainbow Facet,EXISTING
+UniqueSet Market,Rainbow Facet -> Mal,"Rainbow Facet,Antidote Potion",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Natalya's Totem,"Stamina Potion,Um Rune,Grim Helm,Town Portal Scroll",Natalya's Totem,EXISTING
+UniqueSet Market,Natalya's Totem -> Pul Rune,"Antidote Potion,Natalya's Totem",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Natalya's Mark,"Stamina Potion,Mal Rune,Scissors Suwayh,Town Portal Scroll",Natalya's Mark,EXISTING
+UniqueSet Market,Natalya's Mark -> Um Rune,"Antidote Potion,Natalya's Mark",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> Natalya's Soul,"Stamina Potion,Um Rune,Mesh Boots,Town Portal Scroll",Natalya's Soul,EXISTING
+UniqueSet Market,Natalya's Soul -> Pul Rune,"Antidote Potion,Natalya's Soul",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Aldur's Advance,"Stamina Potion,Mal Rune,Battle Boots,Town Portal Scroll",Aldur's Advance,EXISTING
+UniqueSet Market,Aldur's Advance -> Um Rune,"Antidote Potion,Aldur's Advance",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> Immortal King's Will,"Stamina Potion,Um Rune,Avenger Guard,Town Portal Scroll",Immortal King's Will,EXISTING
+UniqueSet Market,Immortal King's Will -> Pul Rune,"Antidote Potion,Immortal King's Will",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Immortal King's Soul Cage,"Stamina Potion,Ist Rune,Sacred Armor,Town Portal Scroll",Immortal King's Soul Cage,EXISTING
+UniqueSet Market,Immortal King's Soul Cage -> Mal Rune,"Antidote Potion,Immortal King's Soul Cage",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Tal Rasha's Fire-Spun Cloth,"Stamina Potion,Um Rune,Mesh Belt,Town Portal Scroll",Tal Rasha's Fire-Spun Cloth,EXISTING
+UniqueSet Market,Tal Rasha's Fire-Spun Cloth -> Pul Rune,"Antidote Potion,Tal Rasha's Fire-Spun Cloth",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Tal Rasha's Adjudication,"Stamina Potion,Mal Rune,amulet,Town Portal Scroll",Tal Rasha's Adjudication,EXISTING
+UniqueSet Market,Tal Rasha's Adjudication -> Um Rune,"Antidote Potion,Tal Rasha's Adjudication",Um Rune,EXISTING
+UniqueSet Market,Mal Rune -> Tal Rasha's Lidless Eye,"Stamina Potion,Mal Rune,Swirling Crystl,Town Portal Scroll",Tal Rasha's Lidless Eye,EXISTING
+UniqueSet Market,Tal Rasha's Lidless Eye -> Um Rune,"Antidote Potion,Tal Rasha's Lidless Eye",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> Tal Rasha's Howling Wind,"Stamina Potion,Ist Rune,Lacquered Plate,Town Portal Scroll",Tal Rasha's Howling Wind,EXISTING
+UniqueSet Market,Tal Rasha's Howling Wind -> Mal Rune,"Antidote Potion,Tal Rasha's Howling Wind",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Tal Rasha's Horadric Crest,"Stamina Potion,Um Rune,Death Mask,Town Portal Scroll",Tal Rasha's Horadric Crest,EXISTING
+UniqueSet Market,Tal Rasha's Horadric Crest -> Pul Rune,"Antidote Potion,Tal Rasha's Horadric Crest",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Griswold's Valor,"Stamina Potion,Mal Rune,Corona,Town Portal Scroll",Griswold's Valor,EXISTING
+UniqueSet Market,Griswold's Valor -> Um Rune,"Antidote Potion,Griswold's Valor",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> Griswolds's Redemption,"Stamina Potion,Ist Rune,Caduceus,Mal Rune",Griswolds's Redemption,EXISTING
+UniqueSet Market,Griswolds's Redemption -> Ist Rune,"Antidote Potion,Griswolds's Redemption",Ist Rune,EXISTING
+UniqueSet Market,Mal Rune -> Griswold's Honor,"Stamina Potion,Mal Rune,Vortex Shield,Town Portal Scroll",Griswold's Honor,EXISTING
+UniqueSet Market,Griswold's Honor -> Um Rune,"Antidote Potion,Griswold's Honor",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> Trang-Oul's Guise,"Stamina Potion,Um Rune,Bone Visage,Town Portal Scroll",Trang-Oul's Guise,EXISTING
+UniqueSet Market,Trang-Oul's Guise -> Pul Rune,"Antidote Potion,Trang-Oul's Guise",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Trang-Oul's Wing,"Stamina Potion,Um Rune,Cantor Trophy,Town Portal Scroll",Trang-Oul's Wing,EXISTING
+UniqueSet Market,Trang-Oul's Wing -> Pul Rune,"Antidote Potion,Trang-Oul's Wing",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Trang-Oul's Claws,"Stamina Potion,Um Rune,Heavy Bracers,Town Portal Scroll",Trang-Oul's Claws,EXISTING
+UniqueSet Market,Trang-Oul's Claws -> Pul Rune,"Antidote Potion,Trang-Oul's Claws",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Trang-Oul's Girth,"Stamina Potion,Um Rune,Troll Belt,Town Portal Scroll",Trang-Oul's Girth,EXISTING
+UniqueSet Market,Trang-Oul's Girth -> Pul Rune,"Antidote Potion,Trang-Oul's Girth",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> M'avina's True Sight,"Stamina Potion,Mal Rune,Diadem,Town Portal Scroll",M'avina's True Sight,EXISTING
+UniqueSet Market,M'avina's True Sight -> Um Rune,"Antidote Potion,M'avina's True Sight",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> M'avina's Caster,"Stamina Potion,Um Rune,Grnd Matron Bow,Town Portal Scroll",M'avina's Caster,EXISTING
+UniqueSet Market,M'avina's Caster -> Lem Rune,"Antidote Potion,M'avina's Caster",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Guillaume's Face,"Stamina Potion,Um Rune,Winged Helm,Town Portal Scroll",Guillaume's Face,EXISTING
+UniqueSet Market,Guillaume's Face -> Pul Rune,"Antidote Potion,Guillaume's Face",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Bul-Kathos' Sacred Charge,"Stamina Potion,Um Rune,Colossus Blade,Town Portal Scroll",Bul-Kathos' Sacred Charge,EXISTING
+UniqueSet Market,Bul-Kathos' Sacred Charge -> Pul Rune,"Antidote Potion,Bul-Kathos' Sacred Charge",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Bul-Kathos' Tribal Guardian,"Stamina Potion,Um Rune,Mythical Sword,Town Portal Scroll",Bul-Kathos' Tribal Guardian,EXISTING
+UniqueSet Market,Bul-Kathos' Tribal Guardian -> Pul Rune,"Antidote Potion,Bul-Kathos' Tribal Guardian",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Cow King's Hoofs,"Stamina Potion,Um Rune,Heavy Boots,Town Portal Scroll",Cow King's Hoofs,EXISTING
+UniqueSet Market,Cow King's Hoofs -> Lem Rune,"Antidote Potion,Cow King's Hoofs",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Naj's Puzzler,"Stamina Potion,Um Rune,Elder Staff,Town Portal Scroll",Naj's Puzzler,EXISTING
+UniqueSet Market,Naj's Puzzler -> Pul Rune,"Antidote Potion,Naj's Puzzler",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Horazon's Countenance,"Stamina Potion,Ist Rune,Demonhead,Town Portal Scroll",Horazon's Countenance,EXISTING
+UniqueSet Market,Horazon's Countenance -> Mal Rune,"Antidote Potion,Horazon's Countenance",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Horazon's Dominion,"Stamina Potion,Ist Rune,Russet Armor,Town Portal Scroll",Horazon's Dominion,EXISTING
+UniqueSet Market,Horazon's Dominion -> Mal Rune,"Antidote Potion,Horazon's Dominion",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Horazon's Hold,"Stamina Potion,Ist Rune,Demonhide Glove,Town Portal Scroll",Horazon's Hold,EXISTING
+UniqueSet Market,Horazon's Hold -> Mal Rune,"Antidote Potion,Horazon's Hold",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Horazon's Legacy,"Stamina Potion,Ist Rune,Mirrored Boots,Town Portal Scroll",Horazon's Legacy,EXISTING
+UniqueSet Market,Horazon's Legacy -> Mal Rune,"Antidote Potion,Horazon's Legacy",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Horazon's Secrets,"Stamina Potion,Ist Rune,wad,Town Portal Scroll",Horazon's Secrets,EXISTING
+UniqueSet Market,Horazon's Secrets -> Mal Rune,"Antidote Potion,Horazon's Secrets",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Iros Torch,"Stamina Potion,Um Rune,Wand,Identify Scroll",Iros Torch,EXISTING
+UniqueSet Market,Iros Torch -> Pul Rune,"Antidote Potion,Iros Torch",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Gull,"Stamina Potion,Um Rune,Dagger,Identify Scroll",Gull,EXISTING
+UniqueSet Market,Gull -> Pul Rune,"Antidote Potion,Gull",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Greyform,"Stamina Potion,Um Rune,Quilted Armor,Identify Scroll",Greyform,EXISTING
+UniqueSet Market,Greyform -> Lem Rune,"Antidote Potion,Greyform",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> The Hand of Broc,"Stamina Potion,Um Rune,Leather Gloves,Identify Scroll",The Hand of Broc,EXISTING
+UniqueSet Market,The Hand of Broc -> Lem Rune,"Antidote Potion,The Hand of Broc",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Bloodfist,"Stamina Potion,Um Rune,Heavy Gloves,Identify Scroll",Bloodfist,EXISTING
+UniqueSet Market,Bloodfist -> Lem Rune,"Antidote Potion,Bloodfist",Lem Rune,EXISTING
+UniqueSet Market,Mal Rune -> Chance Guards,"Stamina Potion,Mal Rune,Chain Gloves,Identify Scroll",Chance Guards,EXISTING
+UniqueSet Market,Chance Guards -> Um Rune,"Antidote Potion,Chance Guards",Um Rune,EXISTING
+UniqueSet Market,Mal Rune -> Magefist,"Stamina Potion,Mal Rune,Light Gauntlets,Identify Scroll",Magefist,EXISTING
+UniqueSet Market,Magefist -> Um Rune,"Antidote Potion,Magefist",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> Hotspur,"Stamina Potion,Um Rune,Boots,Identify Scroll",Hotspur,EXISTING
+UniqueSet Market,Hotspur -> Pul Rune,"Antidote Potion,Hotspur",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Nagelring,"Stamina Potion,Ist Rune,ring,Identify Scroll",Nagelring,EXISTING
+UniqueSet Market,Nagelring -> Um Rune,"Antidote Potion,Nagelring",Um Rune,EXISTING
+UniqueSet Market,Lo Rune -> The Stone of Jordan,"Stamina Potion,Lo Rune,ring,Identify Scroll",The Stone of Jordan,EXISTING
+UniqueSet Market,The Stone of Jordan -> Ohm Rune,"Antidote Potion,The Stone of Jordan",Ohm Rune,EXISTING
+UniqueSet Market,Um Rune -> Blade of Ali Baba,"Stamina Potion,Um Rune,Tulwar,Identify Scroll",Blade of Ali Baba,EXISTING
+UniqueSet Market,Blade of Ali Baba -> Pul Rune,"Antidote Potion,Blade of Ali Baba",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Stormspike,"Stamina Potion,Ist Rune,Stilleto,Identify Scroll",Stormspike,EXISTING
+UniqueSet Market,Stormspike -> Mal Rune,"Antidote Potion,Stormspike",Mal Rune,EXISTING
+UniqueSet Market,"Vex Rune -> Hone Sundan,eth","Stamina Potion,Vex Rune,Yari,Identify Scroll","Hone Sundan,eth",EXISTING
+UniqueSet Market,"Hone Sundan,eth -> Gul Rune","Antidote Potion,Hone Sundan,eth",Gul Rune,EXISTING
+UniqueSet Market,"Mal Rune -> Ribcracker,eth","Stamina Potion,Mal Rune,Quarterstaff,Identify Scroll","Ribcracker,eth",EXISTING
+UniqueSet Market,"Ribcracker,eth -> Um Rune","Antidote Potion,Ribcracker,eth",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> Ribcracker,"Stamina Potion,Um Rune,Quarterstaff,Identify Scroll",Ribcracker,EXISTING
+UniqueSet Market,Ribcracker -> Pul Rune,"Antidote Potion,Ribcracker",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Warpspear,"Stamina Potion,Um Rune,Gothic Staff,Identify Scroll",Warpspear,EXISTING
+UniqueSet Market,Warpspear -> Lem Rune,"Antidote Potion,Warpspear",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Whichwild String,"Stamina Potion,Um Rune,Short Siege Bow,Identify Scroll",Whichwild String,EXISTING
+UniqueSet Market,Whichwild String -> Pul Rune,"Antidote Potion,Whichwild String",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Crown of Thieves,"Stamina Potion,Ist Rune,Grand Crown,Identify Scroll",Crown of Thieves,EXISTING
+UniqueSet Market,Crown of Thieves -> Mal Rune,"Antidote Potion,Crown of Thieves",Mal Rune,EXISTING
+UniqueSet Market,"Ber Rune -> Vampiregaze,eth","Stamina Potion,Ber Rune,Grim Helm,Identify Scroll","Vampiregaze,eth",EXISTING
+UniqueSet Market,"Vampiregaze,eth -> Sur Rune","Antidote Potion,Vampiregaze,eth",Sur Rune,EXISTING
+UniqueSet Market,Ist Rune -> Vampiregaze,"Stamina Potion,Ist Rune,Grim Helm,Identify Scroll",Vampiregaze,EXISTING
+UniqueSet Market,Vampiregaze -> Mal Rune,"Antidote Potion,Vampiregaze",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Skin of the Vipermagi,"Stamina Potion,Ist Rune,Serpentskin,Identify Scroll",Skin of the Vipermagi,EXISTING
+UniqueSet Market,Skin of the Vipermagi -> Mal Rune,"Antidote Potion,Skin of the Vipermagi",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Shaftstop,"Stamina Potion,Um Rune,Mesh Armor,Identify Scroll",Shaftstop,EXISTING
+UniqueSet Market,Shaftstop -> Pul Rune,"Antidote Potion,Shaftstop",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Duriel's Shell,"Stamina Potion,Um Rune,Cuirass,Identify Scroll",Duriel's Shell,EXISTING
+UniqueSet Market,Duriel's Shell -> Lem Rune,"Antidote Potion,Duriel's Shell",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Skullder's Ire,"Stamina Potion,Um Rune,Russet Armor,Identify Scroll",Skullder's Ire,EXISTING
+UniqueSet Market,Skullder's Ire -> Pul Rune,"Antidote Potion,Skullder's Ire",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Guardian Angel,"Stamina Potion,Um Rune,Templar Coat,Identify Scroll",Guardian Angel,EXISTING
+UniqueSet Market,Guardian Angel -> Lem Rune,"Antidote Potion,Guardian Angel",Lem Rune,EXISTING
+UniqueSet Market,Ist Rune -> Mosers Blessed Circle,"Stamina Potion,Ist Rune,Round Shield,Identify Scroll",Mosers Blessed Circle,EXISTING
+UniqueSet Market,Mosers Blessed Circle -> Mal Rune,"Antidote Potion,Mosers Blessed Circle",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Lidless Wall,"Stamina Potion,Um Rune,Grim Shield,Identify Scroll",Lidless Wall,EXISTING
+UniqueSet Market,Lidless Wall -> Pul Rune,"Antidote Potion,Lidless Wall",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Infernostride,"Stamina Potion,Um Rune,Demonhide Boots,Identify Scroll",Infernostride,EXISTING
+UniqueSet Market,Infernostride -> Pul Rune,"Antidote Potion,Infernostride",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Waterwalk,"Stamina Potion,Ist Rune,Sharkskin Boots,Identify Scroll",Waterwalk,EXISTING
+UniqueSet Market,Waterwalk -> Mal Rune,"Antidote Potion,Waterwalk",Mal Rune,EXISTING
+UniqueSet Market,Mal Rune -> Silkweave,"Stamina Potion,Mal Rune,Mesh Boots,Identify Scroll",Silkweave,EXISTING
+UniqueSet Market,Silkweave -> Um Rune,"Antidote Potion,Silkweave",Um Rune,EXISTING
+UniqueSet Market,Vex Rune -> Wartraveler,"Stamina Potion,Vex Rune,Battle Boots,Identify Scroll",Wartraveler,EXISTING
+UniqueSet Market,Wartraveler -> Gul Rune,"Antidote Potion,Wartraveler",Gul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Gorerider,"Stamina Potion,Ist Rune,War Boots,Identify Scroll",Gorerider,EXISTING
+UniqueSet Market,Gorerider -> Mal Rune,"Antidote Potion,Gorerider",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> String of Ears,"Stamina Potion,Ist Rune,Demonhide Sash,Identify Scroll",String of Ears,EXISTING
+UniqueSet Market,String of Ears -> Mal Rune,"Antidote Potion,String of Ears",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Thudergod's Vigor,"Stamina Potion,Ist Rune,War Belt,Identify Scroll",Thudergod's Vigor,EXISTING
+UniqueSet Market,Thudergod's Vigor -> Mal Rune,"Antidote Potion,Thudergod's Vigor",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Harlequin Crest,"Stamina Potion,Ist Rune,Shako,Identify Scroll",Harlequin Crest,EXISTING
+UniqueSet Market,Harlequin Crest -> Mal Rune,"Antidote Potion,Harlequin Crest",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> The Gladiator's Bane,"Stamina Potion,Um Rune,Wire Fleece,Identify Scroll",The Gladiator's Bane,EXISTING
+UniqueSet Market,The Gladiator's Bane -> Pul Rune,"Antidote Potion,The Gladiator's Bane",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Arkaine's Valor,"Stamina Potion,Um Rune,Balrog Skin,Identify Scroll",Arkaine's Valor,EXISTING
+UniqueSet Market,Arkaine's Valor -> Pul Rune,"Antidote Potion,Arkaine's Valor",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Stormshield,"Stamina Potion,Mal Rune,Monarch,Identify Scroll",Stormshield,EXISTING
+UniqueSet Market,Stormshield -> Um Rune,"Antidote Potion,Stormshield",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> Schaefer's Hammer,"Stamina Potion,Ist Rune,Legendary Mallt,Mal Rune",Schaefer's Hammer,EXISTING
+UniqueSet Market,Schaefer's Hammer -> Ist Rune,"Antidote Potion,Schaefer's Hammer",Ist Rune,EXISTING
+UniqueSet Market,Ist Rune -> The Cranium Basher,"Stamina Potion,Ist Rune,Thunder Maul,Identify Scroll",The Cranium Basher,EXISTING
+UniqueSet Market,The Cranium Basher -> Mal Rune,"Antidote Potion,The Cranium Basher",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> The Grandfather,"Stamina Potion,Ist Rune,Colossus Blade,Mal Rune",The Grandfather,EXISTING
+UniqueSet Market,The Grandfather -> Ist Rune,"Antidote Potion,The Grandfather",Ist Rune,EXISTING
+UniqueSet Market,Um Rune -> Wizardspike,"Stamina Potion,Um Rune,Bone Knife,Identify Scroll",Wizardspike,EXISTING
+UniqueSet Market,Wizardspike -> Pul Rune,"Antidote Potion,Wizardspike",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Eaglehorn,"Stamina Potion,Um Rune,Crusader Bow,Identify Scroll",Eaglehorn,EXISTING
+UniqueSet Market,Eaglehorn -> Pul Rune,"Antidote Potion,Eaglehorn",Pul Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Windforce,"Stamina Potion,Ohm Rune,Hydra Bow,Identify Scroll",Windforce,EXISTING
+UniqueSet Market,Windforce -> Vex Rune,"Antidote Potion,Windforce",Vex Rune,EXISTING
+UniqueSet Market,Vex Rune -> Bul Katho's Wedding Band,"Stamina Potion,Vex Rune,ring,Identify Scroll",Bul Katho's Wedding Band,EXISTING
+UniqueSet Market,Bul Katho's Wedding Band -> Gul Rune,"Antidote Potion,Bul Katho's Wedding Band",Gul Rune,EXISTING
+UniqueSet Market,Vex Rune -> Mara's Kaleidoscope,"Stamina Potion,Vex Rune,amulet,Identify Scroll",Mara's Kaleidoscope,EXISTING
+UniqueSet Market,Mara's Kaleidoscope -> Gul Rune,"Antidote Potion,Mara's Kaleidoscope",Gul Rune,EXISTING
+UniqueSet Market,Lem Rune -> Atma's Scarab,"Stamina Potion,Lem Rune,amulet,Fal Rune",Atma's Scarab,EXISTING
+UniqueSet Market,Atma's Scarab -> Fal Rune,"Antidote Potion,Atma's Scarab",Fal Rune,EXISTING
+UniqueSet Market,Mal Rune -> Highlord's Wrath,"Stamina Potion,Mal Rune,amulet,Identify Scroll",Highlord's Wrath,EXISTING
+UniqueSet Market,Highlord's Wrath -> Um Rune,"Antidote Potion,Highlord's Wrath",Um Rune,EXISTING
+UniqueSet Market,Gul Rune -> Arreat's Face,"Stamina Potion,Gul Rune,Slayer Guard,Identify Scroll",Arreat's Face,EXISTING
+UniqueSet Market,Arreat's Face -> Mal Rune,"Antidote Potion,Arreat's Face",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Homunculus,"Stamina Potion,Um Rune,Heirophant Trphy,Identify Scroll",Homunculus,EXISTING
+UniqueSet Market,Homunculus -> Pul Rune,"Antidote Potion,Homunculus",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Titan's Revenge,"Stamina Potion,Mal Rune,Antidote Potion,Identify Scroll",Titan's Revenge,EXISTING
+UniqueSet Market,Titan's Revenge -> Um Rune,"Antidote Potion,Titan's Revenge",Um Rune,EXISTING
+UniqueSet Market,"Jah Rune -> Titan's Revenge,eth","Stamina Potion,Jah Rune,Antidote Potion,Identify Scroll","Titan's Revenge,eth",EXISTING
+UniqueSet Market,"Titan's Revenge,eth -> Ber Rune","Antidote Potion,Titan's Revenge,eth",Ber Rune,EXISTING
+UniqueSet Market,Um Rune -> Lycander's Aim,"Stamina Potion,Um Rune,Ceremonial Bow,Identify Scroll",Lycander's Aim,EXISTING
+UniqueSet Market,Lycander's Aim -> Pul Rune,"Antidote Potion,Lycander's Aim",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> The Oculus,"Stamina Potion,Mal Rune,Swirling Crystl,Identify Scroll",The Oculus,EXISTING
+UniqueSet Market,The Oculus -> Um Rune,"Antidote Potion,The Oculus",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> Herald of Zakarum,"Stamina Potion,Ist Rune,Guilded Shield,Mal Rune",Herald of Zakarum,EXISTING
+UniqueSet Market,Herald of Zakarum -> Ist Rune,"Antidote Potion,Herald of Zakarum",Ist Rune,EXISTING
+UniqueSet Market,Um Rune -> Cutthroat1,"Stamina Potion,Um Rune,9tw,Identify Scroll",Cutthroat1,EXISTING
+UniqueSet Market,Cutthroat1 -> Pul Rune,"Antidote Potion,Cutthroat1",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Jalal's Mane,"Stamina Potion,Mal Rune,Totemic Mask,Identify Scroll",Jalal's Mane,EXISTING
+UniqueSet Market,Jalal's Mane -> Um Rune,"Antidote Potion,Jalal's Mane",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> The Scalper,"Stamina Potion,Um Rune,Francisca,Identify Scroll",The Scalper,EXISTING
+UniqueSet Market,The Scalper -> Lem Rune,"Antidote Potion,The Scalper",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Deathbit,"Stamina Potion,Um Rune,Battle Dart,Identify Scroll",Deathbit,EXISTING
+UniqueSet Market,Deathbit -> Lem Rune,"Antidote Potion,Deathbit",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Warshrike,"Stamina Potion,Um Rune,Winged Knife,Identify Scroll",Warshrike,EXISTING
+UniqueSet Market,Warshrike -> Pul Rune,"Antidote Potion,Warshrike",Pul Rune,EXISTING
+UniqueSet Market,"Lo Rune -> Tomb Reaver,eth","Stamina Potion,Lo Rune,Cryptic Axe,Identify Scroll","Tomb Reaver,eth",EXISTING
+UniqueSet Market,"Tomb Reaver,eth -> Ohm Rune","Antidote Potion,Tomb Reaver,eth",Ohm Rune,EXISTING
+UniqueSet Market,Mal Rune -> Tomb Reaver,"Stamina Potion,Mal Rune,Cryptic Axe,Identify Scroll",Tomb Reaver,EXISTING
+UniqueSet Market,Tomb Reaver -> Um Rune,"Antidote Potion,Tomb Reaver",Um Rune,EXISTING
+UniqueSet Market,Lo Rune -> Deaths's Web,"Stamina Potion,Lo Rune,Unearthed Wand,Identify Scroll",Deaths's Web,EXISTING
+UniqueSet Market,Deaths's Web -> Ohm Rune,"Antidote Potion,Deaths's Web",Ohm Rune,EXISTING
+UniqueSet Market,Ist Rune -> Azurewrath,"Stamina Potion,Ist Rune,Phase Blade,Mal Rune",Azurewrath,EXISTING
+UniqueSet Market,Azurewrath -> Ist Rune,"Antidote Potion,Azurewrath",Ist Rune,EXISTING
+UniqueSet Market,Pul Rune -> Seraph's Hymn,"Stamina Potion,Pul Rune,amulet,Lem Rune",Seraph's Hymn,EXISTING
+UniqueSet Market,Seraph's Hymn -> Lem Rune,"Antidote Potion,Seraph's Hymn",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Fleshripper,"Stamina Potion,Um Rune,Fanged Knife,Identify Scroll",Fleshripper,EXISTING
+UniqueSet Market,Fleshripper -> Pul Rune,"Antidote Potion,Fleshripper",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Jadetalon,"Stamina Potion,Um Rune,Wrist Sword,Identify Scroll",Jadetalon,EXISTING
+UniqueSet Market,Jadetalon -> Pul Rune,"Antidote Potion,Jadetalon",Pul Rune,EXISTING
+UniqueSet Market,Vex Rune -> Shadowdancer,"Stamina Potion,Vex Rune,Myrmidon Greave,Identify Scroll",Shadowdancer,EXISTING
+UniqueSet Market,Shadowdancer -> Gul Rune,"Antidote Potion,Shadowdancer",Gul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Tyrael's Might,"Stamina Potion,Ist Rune,Sacred Armor,Identify Scroll",Tyrael's Might,EXISTING
+UniqueSet Market,Tyrael's Might -> Mal Rune,"Antidote Potion,Tyrael's Might",Mal Rune,EXISTING
+UniqueSet Market,"Ohm Rune -> Runemaster,eth","Stamina Potion,Ohm Rune,Ettin Axe,Identify Scroll","Runemaster,eth",EXISTING
+UniqueSet Market,"Runemaster,eth -> Vex Rune","Antidote Potion,Runemaster,eth",Vex Rune,EXISTING
+UniqueSet Market,Um Rune -> Runemaster,"Stamina Potion,Um Rune,Ettin Axe,Identify Scroll",Runemaster,EXISTING
+UniqueSet Market,Runemaster -> Pul Rune,"Antidote Potion,Runemaster",Pul Rune,EXISTING
+UniqueSet Market,Ist Rune -> Deathcleaver,"Stamina Potion,Ist Rune,Berserker Axe,Identify Scroll",Deathcleaver,EXISTING
+UniqueSet Market,Deathcleaver -> Mal Rune,"Antidote Potion,Deathcleaver",Mal Rune,EXISTING
+UniqueSet Market,Um Rune -> Leviathan,"Stamina Potion,Um Rune,Kraken Shell,Identify Scroll",Leviathan,EXISTING
+UniqueSet Market,Leviathan -> Pul Rune,"Antidote Potion,Leviathan",Pul Rune,EXISTING
+UniqueSet Market,Pul Rune -> Wisp,"Stamina Potion,Pul Rune,ring,Identify Scroll",Wisp,EXISTING
+UniqueSet Market,Wisp -> Fal Rune,"Antidote Potion,Wisp",Fal Rune,EXISTING
+UniqueSet Market,"Ist Rune -> Lacerator,eth","Stamina Potion,Ist Rune,Winged Axe,Identify Scroll","Lacerator,eth",EXISTING
+UniqueSet Market,"Lacerator,eth -> Mal Rune","Antidote Potion,Lacerator,eth",Mal Rune,EXISTING
+UniqueSet Market,Vex Rune -> Mang Song's Lesson,"Stamina Potion,Vex Rune,Archon Staff,Identify Scroll",Mang Song's Lesson,EXISTING
+UniqueSet Market,Mang Song's Lesson -> Gul Rune,"Antidote Potion,Mang Song's Lesson",Gul Rune,EXISTING
+UniqueSet Market,"Lo Rune -> The Reaper's Toll,eth","Stamina Potion,Lo Rune,Thresher,Identify Scroll","The Reaper's Toll,eth",EXISTING
+UniqueSet Market,"The Reaper's Toll,eth -> Ohm Rune","Antidote Potion,The Reaper's Toll,eth",Ohm Rune,EXISTING
+UniqueSet Market,Mal Rune -> The Reaper's Toll,"Stamina Potion,Mal Rune,Thresher,Identify Scroll",The Reaper's Toll,EXISTING
+UniqueSet Market,The Reaper's Toll -> Um Rune,"Antidote Potion,The Reaper's Toll",Um Rune,EXISTING
+UniqueSet Market,Um Rune -> Widowmaker,"Stamina Potion,Um Rune,Ward Bow,Identify Scroll",Widowmaker,EXISTING
+UniqueSet Market,Widowmaker -> Lem Rune,"Antidote Potion,Widowmaker",Lem Rune,EXISTING
+UniqueSet Market,Um Rune -> Bloodraven's Charge,"Stamina Potion,Um Rune,Matriarchal Bow,Identify Scroll",Bloodraven's Charge,EXISTING
+UniqueSet Market,Bloodraven's Charge -> Lem Rune,"Antidote Potion,Bloodraven's Charge",Lem Rune,EXISTING
+UniqueSet Market,Ber Rune -> Griffon's Eye,"Stamina Potion,Ber Rune,Diadem,Identify Scroll",Griffon's Eye,EXISTING
+UniqueSet Market,Griffon's Eye -> Sur Rune,"Antidote Potion,Griffon's Eye",Sur Rune,EXISTING
+UniqueSet Market,Mal Rune -> Thunderstroke,"Stamina Potion,Mal Rune,Matriarchal Jav,Identify Scroll",Thunderstroke,EXISTING
+UniqueSet Market,Thunderstroke -> Um Rune,"Antidote Potion,Thunderstroke",Um Rune,EXISTING
+UniqueSet Market,Gul Rune -> Boneflame,"Stamina Potion,Gul Rune,Succubae Skull,Identify Scroll",Boneflame,EXISTING
+UniqueSet Market,Boneflame -> Mal Rune,"Antidote Potion,Boneflame",Mal Rune,EXISTING
+UniqueSet Market,Vex Rune -> Nightwing's Veil,"Stamina Potion,Vex Rune,Spired Helm,Ist Rune",Nightwing's Veil,EXISTING
+UniqueSet Market,Nightwing's Veil -> Gul Rune,"Antidote Potion,Nightwing's Veil",Gul Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Crown of Ages,"Stamina Potion,Ohm Rune,Corona,Identify Scroll",Crown of Ages,EXISTING
+UniqueSet Market,Crown of Ages -> Vex Rune,"Antidote Potion,Crown of Ages",Vex Rune,EXISTING
+UniqueSet Market,"Jah Rune -> Andariel's Visage,eth","Stamina Potion,Jah Rune,Demonhead,Ber Rune","Andariel's Visage,eth",EXISTING
+UniqueSet Market,"Andariel's Visage,eth -> Jah Rune","Antidote Potion,Andariel's Visage,eth",Jah Rune,EXISTING
+UniqueSet Market,Gul Rune -> Andariel's Visage,"Stamina Potion,Gul Rune,Demonhead,Identify Scroll",Andariel's Visage,EXISTING
+UniqueSet Market,Andariel's Visage -> Ist Rune,"Antidote Potion,Andariel's Visage",Ist Rune,EXISTING
+UniqueSet Market,Ist Rune -> Dragonscale,"Stamina Potion,Ist Rune,Zakarum Shield,Mal Rune",Dragonscale,EXISTING
+UniqueSet Market,Dragonscale -> Ist Rune,"Antidote Potion,Dragonscale",Ist Rune,EXISTING
+UniqueSet Market,Um Rune -> Ravenlore,"Stamina Potion,Um Rune,Sky Spirit,Identify Scroll",Ravenlore,EXISTING
+UniqueSet Market,Ravenlore -> Pul Rune,"Antidote Potion,Ravenlore",Pul Rune,EXISTING
+UniqueSet Market,Um Rune -> Boneshade,"Stamina Potion,Um Rune,Lich Wand,Identify Scroll",Boneshade,EXISTING
+UniqueSet Market,Boneshade -> Pul Rune,"Antidote Potion,Boneshade",Pul Rune,EXISTING
+UniqueSet Market,Lo Rune -> Fathom,"Stamina Potion,Lo Rune,Dimensional Shrd,Identify Scroll",Fathom,EXISTING
+UniqueSet Market,Fathom -> Ohm Rune,"Antidote Potion,Fathom",Ohm Rune,EXISTING
+UniqueSet Market,Mal Rune -> Wolfhowl,"Stamina Potion,Mal Rune,Fury Visor,Identify Scroll",Wolfhowl,EXISTING
+UniqueSet Market,Wolfhowl -> Um Rune,"Antidote Potion,Wolfhowl",Um Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Kira's Guardian,"Stamina Potion,Ohm Rune,Tiara,Identify Scroll",Kira's Guardian,EXISTING
+UniqueSet Market,Kira's Guardian -> Vex Rune,"Antidote Potion,Kira's Guardian",Vex Rune,EXISTING
+UniqueSet Market,Mal Rune -> Ormus' Robes,"Stamina Potion,Mal Rune,Dusk Shroud,Identify Scroll",Ormus' Robes,EXISTING
+UniqueSet Market,Ormus' Robes -> Um Rune,"Antidote Potion,Ormus' Robes",Um Rune,EXISTING
+UniqueSet Market,Mal Rune -> Gheed's Fortune,"Stamina Potion,Mal Rune,Charm Grand,Identify Scroll",Gheed's Fortune,EXISTING
+UniqueSet Market,Gheed's Fortune -> Um Rune,"Antidote Potion,Gheed's Fortune",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> Stormlash,"Stamina Potion,Ist Rune,Scourge,Mal Rune",Stormlash,EXISTING
+UniqueSet Market,Stormlash -> Ist Rune,"Antidote Potion,Stormlash",Ist Rune,EXISTING
+UniqueSet Market,Ist Rune -> Dracul's Grasp,"Stamina Potion,Ist Rune,Vampirebone Gl,Identify Scroll",Dracul's Grasp,EXISTING
+UniqueSet Market,Dracul's Grasp -> Mal Rune,"Antidote Potion,Dracul's Grasp",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Templar's Might,"Stamina Potion,Ist Rune,Sacred Armor,Mal Rune",Templar's Might,EXISTING
+UniqueSet Market,Templar's Might -> Ist Rune,"Antidote Potion,Templar's Might",Ist Rune,EXISTING
+UniqueSet Market,Ist Rune -> Eschuta's temper,"Stamina Potion,Ist Rune,Eldritch Orb,Mal Rune",Eschuta's temper,EXISTING
+UniqueSet Market,Eschuta's temper -> Ist Rune,"Antidote Potion,Eschuta's temper",Ist Rune,EXISTING
+UniqueSet Market,Ist Rune -> Sandstorm Trek,"Stamina Potion,Ist Rune,Scarabshell Bts,Identify Scroll",Sandstorm Trek,EXISTING
+UniqueSet Market,Sandstorm Trek -> Mal Rune,"Antidote Potion,Sandstorm Trek",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Marrowwalk,"Stamina Potion,Ist Rune,Boneweave Boots,Identify Scroll",Marrowwalk,EXISTING
+UniqueSet Market,Marrowwalk -> Mal Rune,"Antidote Potion,Marrowwalk",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Heaven's Light,"Stamina Potion,Ist Rune,Mighty Sceptre,Pul Rune",Heaven's Light,EXISTING
+UniqueSet Market,Heaven's Light -> Mal Rune,"Antidote Potion,Heaven's Light",Mal Rune,EXISTING
+UniqueSet Market,Gul Rune -> Arachnid Mesh,"Stamina Potion,Gul Rune,Spiderweb Sash,Identify Scroll",Arachnid Mesh,EXISTING
+UniqueSet Market,Arachnid Mesh -> Ist Rune,"Antidote Potion,Arachnid Mesh",Ist Rune,EXISTING
+UniqueSet Market,Gul Rune -> Metalgrid,"Stamina Potion,Gul Rune,amulet,Identify Scroll",Metalgrid,EXISTING
+UniqueSet Market,Metalgrid -> Mal Rune,"Antidote Potion,Metalgrid",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Verdugo's Hearty Cord,"Stamina Potion,Ist Rune,Mithril Coil,Identify Scroll",Verdugo's Hearty Cord,EXISTING
+UniqueSet Market,Verdugo's Hearty Cord -> Mal Rune,"Antidote Potion,Verdugo's Hearty Cord",Mal Rune,EXISTING
+UniqueSet Market,Lem Rune -> Carrion Wind,"Stamina Potion,Lem Rune,ring,Fal Rune",Carrion Wind,EXISTING
+UniqueSet Market,Carrion Wind -> Ko Rune,"Antidote Potion,Carrion Wind",Ko Rune,EXISTING
+UniqueSet Market,Vex Rune -> Giantskull,"Stamina Potion,Vex Rune,Bone Visage,Identify Scroll",Giantskull,EXISTING
+UniqueSet Market,Giantskull -> Ist Rune,"Antidote Potion,Giantskull",Ist Rune,EXISTING
+UniqueSet Market,Ist Rune -> Ironward,"Stamina Potion,Ist Rune,Caduceus,Identify Scroll",Ironward,EXISTING
+UniqueSet Market,Ironward -> Mal Rune,"Antidote Potion,Ironward",Mal Rune,EXISTING
+UniqueSet Market,Mal Rune -> Arioc's Needle,"Stamina Potion,Mal Rune,Hyperion Spear,Identify Scroll",Arioc's Needle,EXISTING
+UniqueSet Market,Arioc's Needle -> Um Rune,"Antidote Potion,Arioc's Needle",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> Bonehew,"Stamina Potion,Ist Rune,Ogre Axe,Identify Scroll",Bonehew,EXISTING
+UniqueSet Market,Bonehew -> Mal Rune,"Antidote Potion,Bonehew",Mal Rune,EXISTING
+UniqueSet Market,Mal Rune -> Ondal's Wisdom,"Stamina Potion,Mal Rune,Elder Staff,Identify Scroll",Ondal's Wisdom,EXISTING
+UniqueSet Market,Ondal's Wisdom -> Um Rune,"Antidote Potion,Ondal's Wisdom",Um Rune,EXISTING
+UniqueSet Market,Ist Rune -> The Reedeemer,"Stamina Potion,Ist Rune,Mighty Sceptre,Identify Scroll",The Reedeemer,EXISTING
+UniqueSet Market,The Reedeemer -> Mal Rune,"Antidote Potion,The Reedeemer",Mal Rune,EXISTING
+UniqueSet Market,Ist Rune -> Headhunter's Glory,"Stamina Potion,Ist Rune,Troll Nest,Identify Scroll",Headhunter's Glory,EXISTING
+UniqueSet Market,Headhunter's Glory -> Mal Rune,"Antidote Potion,Headhunter's Glory",Mal Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Steelrend,"Stamina Potion,Ohm Rune,Ogre Gauntlets,Identify Scroll",Steelrend,EXISTING
+UniqueSet Market,Steelrend -> Vex Rune,"Antidote Potion,Steelrend",Vex Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Ars Al'Diablolos,"Stamina Potion,Ohm Rune,Blasphemous Grimoire,Identify Scroll",Ars Al'Diablolos,EXISTING
+UniqueSet Market,Ars Al'Diablolos -> Vex Rune,"Antidote Potion,Ars Al'Diablolos",Vex Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Ars Tor'Baalos,"Stamina Potion,Ohm Rune,Blasphemous Compendium,Identify Scroll",Ars Tor'Baalos,EXISTING
+UniqueSet Market,Ars Tor'Baalos -> Vex Rune,"Antidote Potion,Ars Tor'Baalos",Vex Rune,EXISTING
+UniqueSet Market,Ohm Rune -> Ars Dul'Mephistos,"Stamina Potion,Ohm Rune,Occult Tome,Identify Scroll",Ars Dul'Mephistos,EXISTING
+UniqueSet Market,Ars Dul'Mephistos -> Vex Rune,"Antidote Potion,Ars Dul'Mephistos",Vex Rune,EXISTING
+UniqueSet Market,Ist Rune -> Measured Wrath,"Stamina Potion,Ist Rune,Burnt Text,Mal Rune",Measured Wrath,EXISTING
+UniqueSet Market,Measured Wrath -> Ist Rune,"Antidote Potion,Measured Wrath",Ist Rune,EXISTING
+UniqueSet Market,Vex Rune -> Dreadfang,"Stamina Potion,Vex Rune,Legend Sword,Identify Scroll",Dreadfang,EXISTING
+UniqueSet Market,Dreadfang -> Gul Rune,"Antidote Potion,Dreadfang",Gul Rune,EXISTING
+UniqueSet Market,Um Rune -> Wraithstep,"Stamina Potion,Um Rune,Mirrored Boots,Identify Scroll",Wraithstep,EXISTING
+UniqueSet Market,Wraithstep -> Pul Rune,"Antidote Potion,Wraithstep",Pul Rune,EXISTING
+UniqueSet Market,Mal Rune -> Bloodpact Shard,"Stamina Potion,Mal Rune,Mithral Point,Identify Scroll",Bloodpact Shard,EXISTING
+UniqueSet Market,Bloodpact Shard -> Um Rune,"Antidote Potion,Bloodpact Shard",Um Rune,EXISTING
+UniqueSet Market,Sur Rune -> Sling,"Stamina Potion,Sur Rune,ring,Vex Rune",Sling,EXISTING
+UniqueSet Market,Sling -> Lo Rune,"Antidote Potion,Sling",Lo Rune,EXISTING
+UniqueSet Market,Sur Rune -> Opalvein,"Stamina Potion,Sur Rune,ring,Identify Scroll",Opalvein,EXISTING
+UniqueSet Market,Opalvein -> Lo Rune,"Antidote Potion,Opalvein",Lo Rune,EXISTING
+UniqueSet Market,Ber Rune -> Entropy Locket,"Stamina Potion,Ber Rune,amulet,Identify Scroll",Entropy Locket,EXISTING
+UniqueSet Market,Entropy Locket -> Sur Rune,"Antidote Potion,Entropy Locket",Sur Rune,EXISTING
+UniqueSet Market,Ist Rune -> Gheed's Wager,"Stamina Potion,Ist Rune,Troll Belt,Mal Rune",Gheed's Wager,EXISTING
+UniqueSet Market,Gheed's Wager -> Ist Rune,"Antidote Potion,Gheed's Wager",Ist Rune,EXISTING
+UniqueSet Market,Ber Rune -> Unique Warlock Helm,"Stamina Potion,Ber Rune,Death Mask,Identify Scroll",Unique Warlock Helm,EXISTING
+UniqueSet Market,Unique Warlock Helm -> Sur Rune,"Antidote Potion,Unique Warlock Helm",Sur Rune,EXISTING
+UniqueSet Market,Sur Rune -> Crafted Cold Rupture,"Stamina Potion,Sur Rune,Charm Grand,Perfect Sapphire",Crafted Cold Rupture,EXISTING
+UniqueSet Market,Crafted Cold Rupture -> Lo Rune,"Antidote Potion,Crafted Cold Rupture",Lo Rune,EXISTING
+UniqueSet Market,Sur Rune -> Crafted Flame Rift,"Stamina Potion,Sur Rune,Charm Grand,Perfect Ruby",Crafted Flame Rift,EXISTING
+UniqueSet Market,Crafted Flame Rift -> Lo Rune,"Antidote Potion,Crafted Flame Rift",Lo Rune,EXISTING
+UniqueSet Market,Sur Rune -> Crafted Crack of the Heavens,"Stamina Potion,Sur Rune,Charm Grand,Perfect Diamond",Crafted Crack of the Heavens,EXISTING
+UniqueSet Market,Crafted Crack of the Heavens -> Lo Rune,"Antidote Potion,Crafted Crack of the Heavens",Lo Rune,EXISTING
+UniqueSet Market,Sur Rune -> Crafted Rotting Fissure,"Stamina Potion,Sur Rune,Charm Grand,Perfect Emerald",Crafted Rotting Fissure,EXISTING
+UniqueSet Market,Crafted Rotting Fissure -> Lo Rune,"Antidote Potion,Crafted Rotting Fissure",Lo Rune,EXISTING
+UniqueSet Market,Sur Rune -> Crafted Bone Break,"Stamina Potion,Sur Rune,Charm Grand,Perfect Skull",Crafted Bone Break,EXISTING
+UniqueSet Market,Crafted Bone Break -> Lo Rune,"Antidote Potion,Crafted Bone Break",Lo Rune,EXISTING
+UniqueSet Market,Sur Rune -> Crafted Black Cleft,"Stamina Potion,Sur Rune,Charm Grand,Perfect Amethyst",Crafted Black Cleft,EXISTING
+UniqueSet Market,Crafted Black Cleft -> Lo Rune,"Antidote Potion,Crafted Black Cleft",Lo Rune,EXISTING
+UniqueSet Market,Ist Rune -> Token of Absolution,"Stamina Potion,Ist Rune,Thawing Potion,Identify Scroll",Token of Absolution,EXISTING
+UniqueSet Market,Token of Absolution -> Mal Rune,"Antidote Potion,Token of Absolution",Mal Rune,EXISTING
+Junk Market,Pul Rune -> Civerb's Ward,"Stamina Potion,Pul Rune,Large Shield,Town Portal Scroll",Civerb's Ward,EXISTING
+Junk Market,Civerb's Ward -> Perfect Emerald,"Antidote Potion,Civerb's Ward",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Civerb's Icon,"Stamina Potion,Pul Rune,amulet,Glaive",Civerb's Icon,EXISTING
+Junk Market,Civerb's Icon -> Perfect Emerald,"Antidote Potion,Civerb's Icon",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Civerb's Cudgel,"Stamina Potion,Pul Rune,Grand Sceptre,Town Portal Scroll",Civerb's Cudgel,EXISTING
+Junk Market,Civerb's Cudgel -> Perfect Emerald,"Antidote Potion,Civerb's Cudgel",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Hsarus' Iron Heel,"Stamina Potion,Pul Rune,Chain Boots,Town Portal Scroll",Hsarus' Iron Heel,EXISTING
+Junk Market,Hsarus' Iron Heel -> Perfect Emerald,"Antidote Potion,Hsarus' Iron Heel",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Hsarus' Iron Fist,"Stamina Potion,Pul Rune,Buckler,Town Portal Scroll",Hsarus' Iron Fist,EXISTING
+Junk Market,Hsarus' Iron Fist -> Perfect Emerald,"Antidote Potion,Hsarus' Iron Fist",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Hsarus' Iron Stay,"Stamina Potion,Pul Rune,Belt,Town Portal Scroll",Hsarus' Iron Stay,EXISTING
+Junk Market,Hsarus' Iron Stay -> Perfect Emerald,"Antidote Potion,Hsarus' Iron Stay",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cleglaw's Tooth,"Stamina Potion,Pul Rune,Long Sword,Town Portal Scroll",Cleglaw's Tooth,EXISTING
+Junk Market,Cleglaw's Tooth -> Perfect Emerald,"Antidote Potion,Cleglaw's Tooth",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cleglaw's Claw,"Stamina Potion,Pul Rune,Small Shield,Town Portal Scroll",Cleglaw's Claw,EXISTING
+Junk Market,Cleglaw's Claw -> Perfect Emerald,"Antidote Potion,Cleglaw's Claw",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cleglaw's Pincers,"Stamina Potion,Pul Rune,Chain Gloves,Town Portal Scroll",Cleglaw's Pincers,EXISTING
+Junk Market,Cleglaw's Pincers -> Perfect Emerald,"Antidote Potion,Cleglaw's Pincers",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Iratha's Collar,"Stamina Potion,Pul Rune,amulet,Flawless Ruby",Iratha's Collar,EXISTING
+Junk Market,Iratha's Collar -> Perfect Emerald,"Antidote Potion,Iratha's Collar",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Iratha's Cuff,"Stamina Potion,Pul Rune,Light Gauntlets,Town Portal Scroll",Iratha's Cuff,EXISTING
+Junk Market,Iratha's Cuff -> Perfect Emerald,"Antidote Potion,Iratha's Cuff",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Iratha's Coil,"Stamina Potion,Pul Rune,Crown,Town Portal Scroll",Iratha's Coil,EXISTING
+Junk Market,Iratha's Coil -> Perfect Emerald,"Antidote Potion,Iratha's Coil",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Iratha's Cord,"Stamina Potion,Pul Rune,Heavy Belt,Town Portal Scroll",Iratha's Cord,EXISTING
+Junk Market,Iratha's Cord -> Perfect Emerald,"Antidote Potion,Iratha's Cord",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Isenhart's Lightbrand,"Stamina Potion,Pul Rune,Broad Sword,Town Portal Scroll",Isenhart's Lightbrand,EXISTING
+Junk Market,Isenhart's Lightbrand -> Perfect Emerald,"Antidote Potion,Isenhart's Lightbrand",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Isenhart's Parry,"Stamina Potion,Pul Rune,Gothic Shield,Town Portal Scroll",Isenhart's Parry,EXISTING
+Junk Market,Isenhart's Parry -> Perfect Emerald,"Antidote Potion,Isenhart's Parry",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Isenhart's Case,"Stamina Potion,Pul Rune,Breast Plate,Town Portal Scroll",Isenhart's Case,EXISTING
+Junk Market,Isenhart's Case -> Perfect Emerald,"Antidote Potion,Isenhart's Case",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Isenhart's Horns,"Stamina Potion,Pul Rune,Full Helm,Town Portal Scroll",Isenhart's Horns,EXISTING
+Junk Market,Isenhart's Horns -> Perfect Emerald,"Antidote Potion,Isenhart's Horns",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Vidala's Barb,"Stamina Potion,Pul Rune,Long Battle Bow,Flawless Saphire",Vidala's Barb,EXISTING
+Junk Market,Vidala's Barb -> Perfect Emerald,"Antidote Potion,Vidala's Barb",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Vidala's Fetlock,"Stamina Potion,Pul Rune,Light Plate,Town Portal Scroll",Vidala's Fetlock,EXISTING
+Junk Market,Vidala's Fetlock -> Perfect Emerald,"Antidote Potion,Vidala's Fetlock",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Vidala's Ambush,"Stamina Potion,Pul Rune,Leather Armor,Town Portal Scroll",Vidala's Ambush,EXISTING
+Junk Market,Vidala's Ambush -> Perfect Emerald,"Antidote Potion,Vidala's Ambush",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Vidala's Snare,"Stamina Potion,Pul Rune,amulet,Town Portal Scroll",Vidala's Snare,EXISTING
+Junk Market,Vidala's Snare -> Perfect Emerald,"Antidote Potion,Vidala's Snare",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Milabrega's Orb,"Stamina Potion,Pul Rune,Kite Shield,Town Portal Scroll",Milabrega's Orb,EXISTING
+Junk Market,Milabrega's Orb -> Perfect Emerald,"Antidote Potion,Milabrega's Orb",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Milabrega's Rod,"Stamina Potion,Pul Rune,War Sceptre,Town Portal Scroll",Milabrega's Rod,EXISTING
+Junk Market,Milabrega's Rod -> Perfect Emerald,"Antidote Potion,Milabrega's Rod",Perfect Emerald,EXISTING
+Junk Market,Fal Rune -> Milabrega's Diadem,"Stamina Potion,Fal Rune,Crown,Town Portal Scroll",Milabrega's Diadem,EXISTING
+Junk Market,Milabrega's Diadem -> Perfect Emerald,"Antidote Potion,Milabrega's Diadem",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Milabrega's Robe,"Stamina Potion,Pul Rune,Ancient Armor,Town Portal Scroll",Milabrega's Robe,EXISTING
+Junk Market,Milabrega's Robe -> Perfect Emerald,"Antidote Potion,Milabrega's Robe",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cathan's Rule,"Stamina Potion,Pul Rune,Battle Staff,Flawless Topaz",Cathan's Rule,EXISTING
+Junk Market,Cathan's Rule -> Perfect Emerald,"Antidote Potion,Cathan's Rule",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cathan's Mesh,"Stamina Potion,Pul Rune,Chain Mail,Town Portal Scroll",Cathan's Mesh,EXISTING
+Junk Market,Cathan's Mesh -> Perfect Emerald,"Antidote Potion,Cathan's Mesh",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cathan's Visage,"Stamina Potion,Pul Rune,Mask,Town Portal Scroll",Cathan's Visage,EXISTING
+Junk Market,Cathan's Visage -> Perfect Emerald,"Antidote Potion,Cathan's Visage",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cathan's Sigil,"Stamina Potion,Pul Rune,amulet,Flawless Topaz",Cathan's Sigil,EXISTING
+Junk Market,Cathan's Sigil -> Perfect Emerald,"Antidote Potion,Cathan's Sigil",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cathan's Seal,"Stamina Potion,Pul Rune,ring,Town Portal Scroll",Cathan's Seal,EXISTING
+Junk Market,Cathan's Seal -> Perfect Emerald,"Antidote Potion,Cathan's Seal",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Tancred's Crowbill,"Stamina Potion,Pul Rune,Military Pick,Town Portal Scroll",Tancred's Crowbill,EXISTING
+Junk Market,Tancred's Crowbill -> Perfect Emerald,"Antidote Potion,Tancred's Crowbill",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Tancred's Spine,"Stamina Potion,Pul Rune,Full Plate Mail,Town Portal Scroll",Tancred's Spine,EXISTING
+Junk Market,Tancred's Spine -> Perfect Emerald,"Antidote Potion,Tancred's Spine",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Tancred's Hobnails,"Stamina Potion,Pul Rune,Boots,Town Portal Scroll",Tancred's Hobnails,EXISTING
+Junk Market,Tancred's Hobnails -> Perfect Emerald,"Antidote Potion,Tancred's Hobnails",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Tancred's Weird,"Stamina Potion,Pul Rune,amulet,Flawless Diamond",Tancred's Weird,EXISTING
+Junk Market,Tancred's Weird -> Perfect Emerald,"Antidote Potion,Tancred's Weird",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Tancred's Skull,"Stamina Potion,Pul Rune,Bone Helm,Town Portal Scroll",Tancred's Skull,EXISTING
+Junk Market,Tancred's Skull -> Perfect Emerald,"Antidote Potion,Tancred's Skull",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sigon's Gage,"Stamina Potion,Pul Rune,Gauntlets,Town Portal Scroll",Sigon's Gage,EXISTING
+Junk Market,Sigon's Gage -> Perfect Emerald,"Antidote Potion,Sigon's Gage",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sigon's Visor,"Stamina Potion,Pul Rune,Great Helm,Town Portal Scroll",Sigon's Visor,EXISTING
+Junk Market,Sigon's Visor -> Perfect Emerald,"Antidote Potion,Sigon's Visor",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sigon's Shelter,"Stamina Potion,Pul Rune,Gothic Plate,Town Portal Scroll",Sigon's Shelter,EXISTING
+Junk Market,Sigon's Shelter -> Perfect Emerald,"Antidote Potion,Sigon's Shelter",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sigon's Sabot,"Stamina Potion,Pul Rune,Greaves,Town Portal Scroll",Sigon's Sabot,EXISTING
+Junk Market,Sigon's Sabot -> Perfect Emerald,"Antidote Potion,Sigon's Sabot",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sigon's Wrap,"Stamina Potion,Pul Rune,Plated Belt,Town Portal Scroll",Sigon's Wrap,EXISTING
+Junk Market,Sigon's Wrap -> Perfect Emerald,"Antidote Potion,Sigon's Wrap",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sigon's Guard,"Stamina Potion,Pul Rune,Tower Shield,Town Portal Scroll",Sigon's Guard,EXISTING
+Junk Market,Sigon's Guard -> Perfect Emerald,"Antidote Potion,Sigon's Guard",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Infernal Cranium,"Stamina Potion,Pul Rune,Cap,Town Portal Scroll",Infernal Cranium,EXISTING
+Junk Market,Infernal Cranium -> Perfect Emerald,"Antidote Potion,Infernal Cranium",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Infernal Torch,"Stamina Potion,Pul Rune,Grim Wand,Town Portal Scroll",Infernal Torch,EXISTING
+Junk Market,Infernal Torch -> Perfect Emerald,"Antidote Potion,Infernal Torch",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Infernal Sign,"Stamina Potion,Lem Rune,Heavy Belt,Town Portal Scroll",Infernal Sign,EXISTING
+Junk Market,Infernal Sign -> Perfect Emerald,"Antidote Potion,Infernal Sign",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Berserker's Headgear,"Stamina Potion,Pul Rune,Helm,Town Portal Scroll",Berserker's Headgear,EXISTING
+Junk Market,Berserker's Headgear -> Perfect Emerald,"Antidote Potion,Berserker's Headgear",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Berserker's Hauberk,"Stamina Potion,Pul Rune,Splint Mail,Town Portal Scroll",Berserker's Hauberk,EXISTING
+Junk Market,Berserker's Hauberk -> Perfect Emerald,"Antidote Potion,Berserker's Hauberk",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Berserker's Hatchet,"Stamina Potion,Pul Rune,Double Axe,Town Portal Scroll",Berserker's Hatchet,EXISTING
+Junk Market,Berserker's Hatchet -> Perfect Emerald,"Antidote Potion,Berserker's Hatchet",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Death's Hand,"Stamina Potion,Pul Rune,Leather Gloves,Town Portal Scroll",Death's Hand,EXISTING
+Junk Market,Death's Hand -> Perfect Emerald,"Antidote Potion,Death's Hand",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Death's Guard,"Stamina Potion,Pul Rune,Sash,Town Portal Scroll",Death's Guard,EXISTING
+Junk Market,Death's Guard -> Perfect Emerald,"Antidote Potion,Death's Guard",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Death's Touch,"Stamina Potion,Pul Rune,War Sword,Town Portal Scroll",Death's Touch,EXISTING
+Junk Market,Death's Touch -> Perfect Emerald,"Antidote Potion,Death's Touch",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Angelic Sickle,"Stamina Potion,Pul Rune,Saber,Town Portal Scroll",Angelic Sickle,EXISTING
+Junk Market,Angelic Sickle -> Perfect Emerald,"Antidote Potion,Angelic Sickle",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Angelic Mantle,"Stamina Potion,Pul Rune,Ring Mail,Town Portal Scroll",Angelic Mantle,EXISTING
+Junk Market,Angelic Mantle -> Perfect Emerald,"Antidote Potion,Angelic Mantle",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Angelic Halo,"Stamina Potion,Lem Rune,ring,Town Portal Scroll",Angelic Halo,EXISTING
+Junk Market,Angelic Halo -> Perfect Emerald,"Antidote Potion,Angelic Halo",Perfect Emerald,EXISTING
+Junk Market,Fal Rune -> Angelic Wings,"Stamina Potion,Fal Rune,amulet,Perfect Diamond",Angelic Wings,EXISTING
+Junk Market,Angelic Wings -> Perfect Emerald,"Antidote Potion,Angelic Wings",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Arctic Horn,"Stamina Potion,Pul Rune,Short War Bow,Town Portal Scroll",Arctic Horn,EXISTING
+Junk Market,Arctic Horn -> Perfect Emerald,"Antidote Potion,Arctic Horn",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Arctic Furs,"Stamina Potion,Pul Rune,Quilted Armor,Town Portal Scroll",Arctic Furs,EXISTING
+Junk Market,Arctic Furs -> Perfect Emerald,"Antidote Potion,Arctic Furs",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Arctic Binding,"Stamina Potion,Pul Rune,Light Belt,Town Portal Scroll",Arctic Binding,EXISTING
+Junk Market,Arctic Binding -> Perfect Emerald,"Antidote Potion,Arctic Binding",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Arctic Mitts,"Stamina Potion,Lem Rune,Light Gauntlets,Town Portal Scroll",Arctic Mitts,EXISTING
+Junk Market,Arctic Mitts -> Perfect Emerald,"Antidote Potion,Arctic Mitts",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Arcanna's Sign,"Stamina Potion,Lem Rune,amulet,Town Portal Scroll",Arcanna's Sign,EXISTING
+Junk Market,Arcanna's Sign -> Perfect Emerald,"Antidote Potion,Arcanna's Sign",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Arcanna's Deathwand,"Stamina Potion,Pul Rune,War Staff,Town Portal Scroll",Arcanna's Deathwand,EXISTING
+Junk Market,Arcanna's Deathwand -> Perfect Emerald,"Antidote Potion,Arcanna's Deathwand",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Arcanna's Head,"Stamina Potion,Pul Rune,Skull Cap,Town Portal Scroll",Arcanna's Head,EXISTING
+Junk Market,Arcanna's Head -> Perfect Emerald,"Antidote Potion,Arcanna's Head",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Arcanna's Flesh,"Stamina Potion,Pul Rune,Light Plate,Town Portal Scroll",Arcanna's Flesh,EXISTING
+Junk Market,Arcanna's Flesh -> Perfect Emerald,"Antidote Potion,Arcanna's Flesh",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Natalya's Shadow,"Stamina Potion,Pul Rune,Loricated Mail,Town Portal Scroll",Natalya's Shadow,EXISTING
+Junk Market,Natalya's Shadow -> Perfect Emerald,"Antidote Potion,Natalya's Shadow",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Aldur's Stony Gaze,"Stamina Potion,Pul Rune,Hunter’s Guise,Town Portal Scroll",Aldur's Stony Gaze,EXISTING
+Junk Market,Aldur's Stony Gaze -> Perfect Emerald,"Antidote Potion,Aldur's Stony Gaze",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Aldur's Deception,"Stamina Potion,Pul Rune,Shadow Plate,Town Portal Scroll",Aldur's Deception,EXISTING
+Junk Market,Aldur's Deception -> Perfect Emerald,"Antidote Potion,Aldur's Deception",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Aldur's Gauntlet,"Stamina Potion,Pul Rune,Jagged Star,Town Portal Scroll",Aldur's Gauntlet,EXISTING
+Junk Market,Aldur's Gauntlet -> Perfect Emerald,"Antidote Potion,Aldur's Gauntlet",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Immortal King's Detail,"Stamina Potion,Pul Rune,War Belt,Town Portal Scroll",Immortal King's Detail,EXISTING
+Junk Market,Immortal King's Detail -> Perfect Emerald,"Antidote Potion,Immortal King's Detail",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Immortal King's Forge,"Stamina Potion,Pul Rune,War Gauntlets,Town Portal Scroll",Immortal King's Forge,EXISTING
+Junk Market,Immortal King's Forge -> Perfect Emerald,"Antidote Potion,Immortal King's Forge",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Immortal King's Pillar,"Stamina Potion,Pul Rune,War Boots,Town Portal Scroll",Immortal King's Pillar,EXISTING
+Junk Market,Immortal King's Pillar -> Perfect Emerald,"Antidote Potion,Immortal King's Pillar",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Immortal King's Stone Crusher,"Stamina Potion,Pul Rune,Ogre Maul,Town Portal Scroll",Immortal King's Stone Crusher,EXISTING
+Junk Market,Immortal King's Stone Crusher -> Perfect Emerald,"Antidote Potion,Immortal King's Stone Crusher",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Griswold's Heart,"Stamina Potion,Pul Rune,Ornate Armor,Town Portal Scroll",Griswold's Heart,EXISTING
+Junk Market,Griswold's Heart -> Perfect Emerald,"Antidote Potion,Griswold's Heart",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Trang-Oul's Scales,"Stamina Potion,Pul Rune,Chaos Armor,Town Portal Scroll",Trang-Oul's Scales,EXISTING
+Junk Market,Trang-Oul's Scales -> Perfect Emerald,"Antidote Potion,Trang-Oul's Scales",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> M'avina's Embrace,"Stamina Potion,Pul Rune,Kraken Shell,Town Portal Scroll",M'avina's Embrace,EXISTING
+Junk Market,M'avina's Embrace -> Perfect Emerald,"Antidote Potion,M'avina's Embrace",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> M'avina's Icy Clutch,"Stamina Potion,Pul Rune,Battle Gauntlet,Town Portal Scroll",M'avina's Icy Clutch,EXISTING
+Junk Market,M'avina's Icy Clutch -> Perfect Emerald,"Antidote Potion,M'avina's Icy Clutch",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> M'avina's Tenet,"Stamina Potion,Pul Rune,Sharkskin Belt,Town Portal Scroll",M'avina's Tenet,EXISTING
+Junk Market,M'avina's Tenet -> Perfect Emerald,"Antidote Potion,M'avina's Tenet",Perfect Emerald,EXISTING
+Junk Market,Fal Rune -> Telling of Beads,"Stamina Potion,Fal Rune,amulet,Town Portal Scroll",Telling of Beads,EXISTING
+Junk Market,Telling of Beads -> Perfect Emerald,"Antidote Potion,Telling of Beads",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Laying of Hands,"Stamina Potion,Pul Rune,Bramble Mitts,Town Portal Scroll",Laying of Hands,EXISTING
+Junk Market,Laying of Hands -> Perfect Emerald,"Antidote Potion,Laying of Hands",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Rite of Passage,"Stamina Potion,Pul Rune,Demonhide Boots,Town Portal Scroll",Rite of Passage,EXISTING
+Junk Market,Rite of Passage -> Perfect Emerald,"Antidote Potion,Rite of Passage",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Spiritual Custodian,"Stamina Potion,Pul Rune,Dusk Shroud,Town Portal Scroll",Spiritual Custodian,EXISTING
+Junk Market,Spiritual Custodian -> Perfect Emerald,"Antidote Potion,Spiritual Custodian",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Credendum,"Stamina Potion,Pul Rune,Mithril Coil,Town Portal Scroll",Credendum,EXISTING
+Junk Market,Credendum -> Perfect Emerald,"Antidote Potion,Credendum",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Dangoon's Teaching,"Stamina Potion,Pul Rune,Reinforced Mace,Town Portal Scroll",Dangoon's Teaching,EXISTING
+Junk Market,Dangoon's Teaching -> Perfect Emerald,"Antidote Potion,Dangoon's Teaching",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Heaven's Taebaek,"Stamina Potion,Pul Rune,Ward,Town Portal Scroll",Heaven's Taebaek,EXISTING
+Junk Market,Heaven's Taebaek -> Perfect Emerald,"Antidote Potion,Heaven's Taebaek",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Haemosu's Adament,"Stamina Potion,Pul Rune,Cuirass,Town Portal Scroll",Haemosu's Adament,EXISTING
+Junk Market,Haemosu's Adament -> Perfect Emerald,"Antidote Potion,Haemosu's Adament",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Ondal's Almighty,"Stamina Potion,Pul Rune,Spired Helm,Town Portal Scroll",Ondal's Almighty,EXISTING
+Junk Market,Ondal's Almighty -> Perfect Emerald,"Antidote Potion,Ondal's Almighty",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Wilhelm's Pride,"Stamina Potion,Pul Rune,Battle Belt,Town Portal Scroll",Wilhelm's Pride,EXISTING
+Junk Market,Wilhelm's Pride -> Perfect Emerald,"Antidote Potion,Wilhelm's Pride",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Magnus' Skin,"Stamina Potion,Pul Rune,Sharkskin Glove,Town Portal Scroll",Magnus' Skin,EXISTING
+Junk Market,Magnus' Skin -> Perfect Emerald,"Antidote Potion,Magnus' Skin",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Wihtstan's Guard,"Stamina Potion,Pul Rune,Round Shield,Town Portal Scroll",Wihtstan's Guard,EXISTING
+Junk Market,Wihtstan's Guard -> Perfect Emerald,"Antidote Potion,Wihtstan's Guard",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Hwanin's Splendor,"Stamina Potion,Lem Rune,Grand Crown,Town Portal Scroll",Hwanin's Splendor,EXISTING
+Junk Market,Hwanin's Splendor -> Perfect Emerald,"Antidote Potion,Hwanin's Splendor",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Hwanin's Refuge,"Stamina Potion,Pul Rune,Tigulated Mail,Town Portal Scroll",Hwanin's Refuge,EXISTING
+Junk Market,Hwanin's Refuge -> Perfect Emerald,"Antidote Potion,Hwanin's Refuge",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Hwanin's Seal,"Stamina Potion,Lem Rune,Belt,Town Portal Scroll",Hwanin's Seal,EXISTING
+Junk Market,Hwanin's Seal -> Perfect Emerald,"Antidote Potion,Hwanin's Seal",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Hwanin's Justice,"Stamina Potion,Pul Rune,Bill,Town Portal Scroll",Hwanin's Justice,EXISTING
+Junk Market,Hwanin's Justice -> Perfect Emerald,"Antidote Potion,Hwanin's Justice",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sazabi's Cobalt Redeemer,"Stamina Potion,Pul Rune,Cryptic Sword,Town Portal Scroll",Sazabi's Cobalt Redeemer,EXISTING
+Junk Market,Sazabi's Cobalt Redeemer -> Perfect Emerald,"Antidote Potion,Sazabi's Cobalt Redeemer",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sazabi's Ghost Liberator,"Stamina Potion,Pul Rune,Balrog Skin,Town Portal Scroll",Sazabi's Ghost Liberator,EXISTING
+Junk Market,Sazabi's Ghost Liberator -> Perfect Emerald,"Antidote Potion,Sazabi's Ghost Liberator",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sazabi's Mental Sheath,"Stamina Potion,Pul Rune,Basinet,Town Portal Scroll",Sazabi's Mental Sheath,EXISTING
+Junk Market,Sazabi's Mental Sheath -> Perfect Emerald,"Antidote Potion,Sazabi's Mental Sheath",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cow King's Horns,"Stamina Potion,Pul Rune,War Hat,Town Portal Scroll",Cow King's Horns,EXISTING
+Junk Market,Cow King's Horns -> Perfect Emerald,"Antidote Potion,Cow King's Horns",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Cow King's Hide,"Stamina Potion,Pul Rune,Studded Leather,Town Portal Scroll",Cow King's Hide,EXISTING
+Junk Market,Cow King's Hide -> Perfect Emerald,"Antidote Potion,Cow King's Hide",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Naj's Light Plate,"Stamina Potion,Pul Rune,Hellforge Plate,Town Portal Scroll",Naj's Light Plate,EXISTING
+Junk Market,Naj's Light Plate -> Perfect Emerald,"Antidote Potion,Naj's Light Plate",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Naj's Circlet,"Stamina Potion,Pul Rune,Circlet,Town Portal Scroll",Naj's Circlet,EXISTING
+Junk Market,Naj's Circlet -> Perfect Emerald,"Antidote Potion,Naj's Circlet",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Sander's Paragon,"Stamina Potion,Lem Rune,Cap,Town Portal Scroll",Sander's Paragon,EXISTING
+Junk Market,Sander's Paragon -> Perfect Emerald,"Antidote Potion,Sander's Paragon",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sander's Riprap,"Stamina Potion,Pul Rune,Heavy Boots,Town Portal Scroll",Sander's Riprap,EXISTING
+Junk Market,Sander's Riprap -> Perfect Emerald,"Antidote Potion,Sander's Riprap",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sander's Taboo,"Stamina Potion,Pul Rune,Heavy Gloves,Town Portal Scroll",Sander's Taboo,EXISTING
+Junk Market,Sander's Taboo -> Perfect Emerald,"Antidote Potion,Sander's Taboo",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> Sander's Superstition,"Stamina Potion,Pul Rune,Bone Wand,Town Portal Scroll",Sander's Superstition,EXISTING
+Junk Market,Sander's Superstition -> Perfect Emerald,"Antidote Potion,Sander's Superstition",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Warlord's Lust,"Stamina Potion,Lem Rune,Great Helm,Town Portal Scroll",Warlord's Lust,EXISTING
+Junk Market,Warlord's Lust -> Perfect Emerald,"Antidote Potion,Warlord's Lust",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Warlord's Mantle,"Stamina Potion,Lem Rune,Full Plate Mail,Town Portal Scroll",Warlord's Mantle,EXISTING
+Junk Market,Warlord's Mantle -> Perfect Emerald,"Antidote Potion,Warlord's Mantle",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Warlord's Crushers,"Stamina Potion,Lem Rune,Greaves,Town Portal Scroll",Warlord's Crushers,EXISTING
+Junk Market,Warlord's Crushers -> Perfect Emerald,"Antidote Potion,Warlord's Crushers",Perfect Emerald,EXISTING
+Junk Market,Lem Rune -> Warlord's Authority,"Stamina Potion,Lem Rune,Plated Belt,Town Portal Scroll",Warlord's Authority,EXISTING
+Junk Market,Warlord's Authority -> Perfect Emerald,"Antidote Potion,Warlord's Authority",Perfect Emerald,EXISTING
+Junk Market,Um Rune -> Bane's Oathmaker,"Stamina Potion,Um Rune,Kriss,Town Portal Scroll",Bane's Oathmaker,EXISTING
+Junk Market,Bane's Oathmaker -> Perfect Emerald,"Antidote Potion,Bane's Oathmaker",Perfect Emerald,EXISTING
+Junk Market,Um Rune -> Bane's Wraithskin,"Stamina Potion,Um Rune,Hard Leather,Town Portal Scroll",Bane's Wraithskin,EXISTING
+Junk Market,Bane's Wraithskin -> Perfect Emerald,"Antidote Potion,Bane's Wraithskin",Perfect Emerald,EXISTING
+Junk Market,Um Rune -> Bane's Authority,"Stamina Potion,Um Rune,Light Belt,Town Portal Scroll",Bane's Authority,EXISTING
+Junk Market,Bane's Authority -> Perfect Emerald,"Antidote Potion,Bane's Authority",Perfect Emerald,EXISTING
+Junk Market,Pul Rune -> The Gnasher,"Stamina Potion,Pul Rune,Hand Axe,Identify Scroll",The Gnasher,EXISTING
+Junk Market,The Gnasher -> Perfect Topaz,"Antidote Potion,The Gnasher",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Deathspade,"Stamina Potion,Pul Rune,Axe,Identify Scroll",Deathspade,EXISTING
+Junk Market,Deathspade -> Perfect Topaz,"Antidote Potion,Deathspade",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bladebone,"Stamina Potion,Pul Rune,Double Axe,Identify Scroll",Bladebone,EXISTING
+Junk Market,Bladebone -> Perfect Topaz,"Antidote Potion,Bladebone",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Mindrend,"Stamina Potion,Pul Rune,Military Pick,Identify Scroll",Mindrend,EXISTING
+Junk Market,Mindrend -> Perfect Topaz,"Antidote Potion,Mindrend",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rakescar,"Stamina Potion,Pul Rune,War Axe,Identify Scroll",Rakescar,EXISTING
+Junk Market,Rakescar -> Perfect Topaz,"Antidote Potion,Rakescar",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Fechmars Axe,"Stamina Potion,Pul Rune,Large Axe,Identify Scroll",Fechmars Axe,EXISTING
+Junk Market,Fechmars Axe -> Perfect Topaz,"Antidote Potion,Fechmars Axe",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Goreshovel,"Stamina Potion,Pul Rune,Broad Axe,Identify Scroll",Goreshovel,EXISTING
+Junk Market,Goreshovel -> Perfect Topaz,"Antidote Potion,Goreshovel",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Chieftan,"Stamina Potion,Pul Rune,Battle Axe,Identify Scroll",The Chieftan,EXISTING
+Junk Market,The Chieftan -> Perfect Topaz,"Antidote Potion,The Chieftan",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Brainhew,"Stamina Potion,Pul Rune,Great Axe,Identify Scroll",Brainhew,EXISTING
+Junk Market,Brainhew -> Perfect Topaz,"Antidote Potion,Brainhew",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Humongous,"Stamina Potion,Pul Rune,Giant Axe,Identify Scroll",The Humongous,EXISTING
+Junk Market,The Humongous -> Perfect Topaz,"Antidote Potion,The Humongous",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Maelstromwrath,"Stamina Potion,Pul Rune,Yew Wand,Identify Scroll",Maelstromwrath,EXISTING
+Junk Market,Maelstromwrath -> Perfect Topaz,"Antidote Potion,Maelstromwrath",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gravenspine,"Stamina Potion,Pul Rune,Bone Wand,Identify Scroll",Gravenspine,EXISTING
+Junk Market,Gravenspine -> Perfect Topaz,"Antidote Potion,Gravenspine",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Umes Lament,"Stamina Potion,Pul Rune,Grim Wand,Identify Scroll",Umes Lament,EXISTING
+Junk Market,Umes Lament -> Perfect Topaz,"Antidote Potion,Umes Lament",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Felloak,"Stamina Potion,Pul Rune,Club,Identify Scroll",Felloak,EXISTING
+Junk Market,Felloak -> Perfect Topaz,"Antidote Potion,Felloak",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Knell Striker,"Stamina Potion,Pul Rune,Sceptre,Identify Scroll",Knell Striker,EXISTING
+Junk Market,Knell Striker -> Perfect Topaz,"Antidote Potion,Knell Striker",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rusthandle,"Stamina Potion,Pul Rune,Grand Sceptre,Identify Scroll",Rusthandle,EXISTING
+Junk Market,Rusthandle -> Perfect Topaz,"Antidote Potion,Rusthandle",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stormeye,"Stamina Potion,Pul Rune,War Sceptre,Identify Scroll",Stormeye,EXISTING
+Junk Market,Stormeye -> Perfect Topaz,"Antidote Potion,Stormeye",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stoutnail,"Stamina Potion,Pul Rune,Spiked Club,Identify Scroll",Stoutnail,EXISTING
+Junk Market,Stoutnail -> Perfect Topaz,"Antidote Potion,Stoutnail",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Crushflange,"Stamina Potion,Pul Rune,Mace,Identify Scroll",Crushflange,EXISTING
+Junk Market,Crushflange -> Perfect Topaz,"Antidote Potion,Crushflange",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bloodrise,"Stamina Potion,Pul Rune,Morning Star,Identify Scroll",Bloodrise,EXISTING
+Junk Market,Bloodrise -> Perfect Topaz,"Antidote Potion,Bloodrise",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Generals Tan Do Li Ga,"Stamina Potion,Pul Rune,Flail,Identify Scroll",The Generals Tan Do Li Ga,EXISTING
+Junk Market,The Generals Tan Do Li Ga -> Perfect Topaz,"Antidote Potion,The Generals Tan Do Li Ga",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ironstone,"Stamina Potion,Pul Rune,War Hammer,Identify Scroll",Ironstone,EXISTING
+Junk Market,Ironstone -> Perfect Topaz,"Antidote Potion,Ironstone",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bonesob,"Stamina Potion,Pul Rune,Maul,Identify Scroll",Bonesob,EXISTING
+Junk Market,Bonesob -> Perfect Topaz,"Antidote Potion,Bonesob",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Steeldriver,"Stamina Potion,Pul Rune,Great Maul,Identify Scroll",Steeldriver,EXISTING
+Junk Market,Steeldriver -> Perfect Topaz,"Antidote Potion,Steeldriver",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rixots Keen,"Stamina Potion,Pul Rune,Short Swrod,Identify Scroll",Rixots Keen,EXISTING
+Junk Market,Rixots Keen -> Perfect Topaz,"Antidote Potion,Rixots Keen",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blood Crescent,"Stamina Potion,Pul Rune,Scimitar,Identify Scroll",Blood Crescent,EXISTING
+Junk Market,Blood Crescent -> Perfect Topaz,"Antidote Potion,Blood Crescent",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Krintizs Skewer,"Stamina Potion,Pul Rune,Saber,Identify Scroll",Krintizs Skewer,EXISTING
+Junk Market,Krintizs Skewer -> Perfect Topaz,"Antidote Potion,Krintizs Skewer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gleamscythe,"Stamina Potion,Pul Rune,Falchion,Identify Scroll",Gleamscythe,EXISTING
+Junk Market,Gleamscythe -> Perfect Topaz,"Antidote Potion,Gleamscythe",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Azurewrath,"Stamina Potion,Pul Rune,Crystal Sword,Identify Scroll",Azurewrath,EXISTING
+Junk Market,Azurewrath -> Perfect Topaz,"Antidote Potion,Azurewrath",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Griswolds Edge,"Stamina Potion,Pul Rune,Broad Sword,Identify Scroll",Griswolds Edge,EXISTING
+Junk Market,Griswolds Edge -> Perfect Topaz,"Antidote Potion,Griswolds Edge",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hellplague,"Stamina Potion,Pul Rune,Long Sword,Identify Scroll",Hellplague,EXISTING
+Junk Market,Hellplague -> Perfect Topaz,"Antidote Potion,Hellplague",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Culwens Point,"Stamina Potion,Pul Rune,War Sword,Identify Scroll",Culwens Point,EXISTING
+Junk Market,Culwens Point -> Perfect Topaz,"Antidote Potion,Culwens Point",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Shadowfang,"Stamina Potion,Pul Rune,Two-handed Swrd,Identify Scroll",Shadowfang,EXISTING
+Junk Market,Shadowfang -> Perfect Topaz,"Antidote Potion,Shadowfang",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Soulflay,"Stamina Potion,Pul Rune,Claymore,Identify Scroll",Soulflay,EXISTING
+Junk Market,Soulflay -> Perfect Topaz,"Antidote Potion,Soulflay",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Kinemils Awl,"Stamina Potion,Pul Rune,Giant Sword,Identify Scroll",Kinemils Awl,EXISTING
+Junk Market,Kinemils Awl -> Perfect Topaz,"Antidote Potion,Kinemils Awl",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blacktongue,"Stamina Potion,Pul Rune,Bastard Sword,Identify Scroll",Blacktongue,EXISTING
+Junk Market,Blacktongue -> Perfect Topaz,"Antidote Potion,Blacktongue",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ripsaw,"Stamina Potion,Pul Rune,Flamberge,Identify Scroll",Ripsaw,EXISTING
+Junk Market,Ripsaw -> Perfect Topaz,"Antidote Potion,Ripsaw",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Patriarch,"Stamina Potion,Pul Rune,Great Sword,Identify Scroll",The Patriarch,EXISTING
+Junk Market,The Patriarch -> Perfect Topaz,"Antidote Potion,The Patriarch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Diggler,"Stamina Potion,Pul Rune,Dirk,Identify Scroll",The Diggler,EXISTING
+Junk Market,The Diggler -> Perfect Topaz,"Antidote Potion,The Diggler",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Jade Tan Do,"Stamina Potion,Pul Rune,Kriss,Identify Scroll",The Jade Tan Do,EXISTING
+Junk Market,The Jade Tan Do -> Perfect Topaz,"Antidote Potion,The Jade Tan Do",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Irices Shard,"Stamina Potion,Pul Rune,Blade,Identify Scroll",Irices Shard,EXISTING
+Junk Market,Irices Shard -> Perfect Topaz,"Antidote Potion,Irices Shard",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Dragon Chang,"Stamina Potion,Pul Rune,Spear,Identify Scroll",The Dragon Chang,EXISTING
+Junk Market,The Dragon Chang -> Perfect Topaz,"Antidote Potion,The Dragon Chang",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Razortine,"Stamina Potion,Pul Rune,Trident,Identify Scroll",Razortine,EXISTING
+Junk Market,Razortine -> Perfect Topaz,"Antidote Potion,Razortine",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bloodthief,"Stamina Potion,Pul Rune,Brandistock,Identify Scroll",Bloodthief,EXISTING
+Junk Market,Bloodthief -> Perfect Topaz,"Antidote Potion,Bloodthief",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lance of Yaggai,"Stamina Potion,Pul Rune,Spetum,Identify Scroll",Lance of Yaggai,EXISTING
+Junk Market,Lance of Yaggai -> Perfect Topaz,"Antidote Potion,Lance of Yaggai",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Tannr Gorerod,"Stamina Potion,Pul Rune,Pike,Identify Scroll",The Tannr Gorerod,EXISTING
+Junk Market,The Tannr Gorerod -> Perfect Topaz,"Antidote Potion,The Tannr Gorerod",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Dimoaks Hew,"Stamina Potion,Pul Rune,Bardiche,Identify Scroll",Dimoaks Hew,EXISTING
+Junk Market,Dimoaks Hew -> Perfect Topaz,"Antidote Potion,Dimoaks Hew",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Steelgoad,"Stamina Potion,Pul Rune,Voulge,Identify Scroll",Steelgoad,EXISTING
+Junk Market,Steelgoad -> Perfect Topaz,"Antidote Potion,Steelgoad",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Soul Harvest,"Stamina Potion,Pul Rune,Scythe,Identify Scroll",Soul Harvest,EXISTING
+Junk Market,Soul Harvest -> Perfect Topaz,"Antidote Potion,Soul Harvest",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Battlebranch,"Stamina Potion,Pul Rune,Poleaxe,Identify Scroll",The Battlebranch,EXISTING
+Junk Market,The Battlebranch -> Perfect Topaz,"Antidote Potion,The Battlebranch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Woestave,"Stamina Potion,Pul Rune,Halberd,Identify Scroll",Woestave,EXISTING
+Junk Market,Woestave -> Perfect Topaz,"Antidote Potion,Woestave",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Grim Reaper,"Stamina Potion,Pul Rune,War Scythe,Identify Scroll",The Grim Reaper,EXISTING
+Junk Market,The Grim Reaper -> Perfect Topaz,"Antidote Potion,The Grim Reaper",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bane Ash,"Stamina Potion,Pul Rune,Short Staff,Identify Scroll",Bane Ash,EXISTING
+Junk Market,Bane Ash -> Perfect Topaz,"Antidote Potion,Bane Ash",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Serpent Lord,"Stamina Potion,Pul Rune,Long Staff,Identify Scroll",Serpent Lord,EXISTING
+Junk Market,Serpent Lord -> Perfect Topaz,"Antidote Potion,Serpent Lord",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lazarus Spire,"Stamina Potion,Pul Rune,cst,Identify Scroll",Lazarus Spire,EXISTING
+Junk Market,Lazarus Spire -> Perfect Topaz,"Antidote Potion,Lazarus Spire",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Salamander,"Stamina Potion,Pul Rune,Battle Staff,Identify Scroll",The Salamander,EXISTING
+Junk Market,The Salamander -> Perfect Topaz,"Antidote Potion,The Salamander",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Iron Jang Bong,"Stamina Potion,Pul Rune,War Staff,Identify Scroll",The Iron Jang Bong,EXISTING
+Junk Market,The Iron Jang Bong -> Perfect Topaz,"Antidote Potion,The Iron Jang Bong",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Pluckeye,"Stamina Potion,Pul Rune,Short Bow,Identify Scroll",Pluckeye,EXISTING
+Junk Market,Pluckeye -> Perfect Topaz,"Antidote Potion,Pluckeye",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Witherstring,"Stamina Potion,Pul Rune,Hunter’s Bow,Identify Scroll",Witherstring,EXISTING
+Junk Market,Witherstring -> Perfect Topaz,"Antidote Potion,Witherstring",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rimeraven,"Stamina Potion,Pul Rune,Long Bow,Identify Scroll",Rimeraven,EXISTING
+Junk Market,Rimeraven -> Perfect Topaz,"Antidote Potion,Rimeraven",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Piercerib,"Stamina Potion,Pul Rune,Composite Bow,Identify Scroll",Piercerib,EXISTING
+Junk Market,Piercerib -> Perfect Topaz,"Antidote Potion,Piercerib",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Pullspite,"Stamina Potion,Pul Rune,Shrt Battle Bow,Identify Scroll",Pullspite,EXISTING
+Junk Market,Pullspite -> Perfect Topaz,"Antidote Potion,Pullspite",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Wizendraw,"Stamina Potion,Pul Rune,Long Battle Bow,Identify Scroll",Wizendraw,EXISTING
+Junk Market,Wizendraw -> Perfect Topaz,"Antidote Potion,Wizendraw",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hellclap,"Stamina Potion,Pul Rune,Short War Bow,Identify Scroll",Hellclap,EXISTING
+Junk Market,Hellclap -> Perfect Topaz,"Antidote Potion,Hellclap",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blastbark,"Stamina Potion,Pul Rune,Long War Bow,Identify Scroll",Blastbark,EXISTING
+Junk Market,Blastbark -> Perfect Topaz,"Antidote Potion,Blastbark",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Leadcrow,"Stamina Potion,Pul Rune,Light Crossbow,Identify Scroll",Leadcrow,EXISTING
+Junk Market,Leadcrow -> Perfect Topaz,"Antidote Potion,Leadcrow",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ichorsting,"Stamina Potion,Pul Rune,Crossbow,Identify Scroll",Ichorsting,EXISTING
+Junk Market,Ichorsting -> Perfect Topaz,"Antidote Potion,Ichorsting",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hellcast,"Stamina Potion,Pul Rune,Heavy Crossbow,Identify Scroll",Hellcast,EXISTING
+Junk Market,Hellcast -> Perfect Topaz,"Antidote Potion,Hellcast",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Doomspittle,"Stamina Potion,Pul Rune,Repeating X-bow,Identify Scroll",Doomspittle,EXISTING
+Junk Market,Doomspittle -> Perfect Topaz,"Antidote Potion,Doomspittle",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> War Bonnet,"Stamina Potion,Pul Rune,Cap,Identify Scroll",War Bonnet,EXISTING
+Junk Market,War Bonnet -> Perfect Topaz,"Antidote Potion,War Bonnet",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Tarnhelm,"Stamina Potion,Pul Rune,Skull Cap,Identify Scroll",Tarnhelm,EXISTING
+Junk Market,Tarnhelm -> Perfect Topaz,"Antidote Potion,Tarnhelm",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Coif of Glory,"Stamina Potion,Pul Rune,Helm,Identify Scroll",Coif of Glory,EXISTING
+Junk Market,Coif of Glory -> Perfect Topaz,"Antidote Potion,Coif of Glory",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Duskdeep,"Stamina Potion,Pul Rune,Full Helm,Identify Scroll",Duskdeep,EXISTING
+Junk Market,Duskdeep -> Perfect Topaz,"Antidote Potion,Duskdeep",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Wormskull,"Stamina Potion,Pul Rune,Bone Helm,Identify Scroll",Wormskull,EXISTING
+Junk Market,Wormskull -> Perfect Topaz,"Antidote Potion,Wormskull",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Howltusk,"Stamina Potion,Pul Rune,Great Helm,Identify Scroll",Howltusk,EXISTING
+Junk Market,Howltusk -> Perfect Topaz,"Antidote Potion,Howltusk",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Undead Crown,"Stamina Potion,Pul Rune,Crown,Identify Scroll",Undead Crown,EXISTING
+Junk Market,Undead Crown -> Perfect Topaz,"Antidote Potion,Undead Crown",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Face of Horror,"Stamina Potion,Pul Rune,Mask,Identify Scroll",The Face of Horror,EXISTING
+Junk Market,The Face of Horror -> Perfect Topaz,"Antidote Potion,The Face of Horror",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blinkbats Form,"Stamina Potion,Pul Rune,Leather Armor,Identify Scroll",Blinkbats Form,EXISTING
+Junk Market,Blinkbats Form -> Perfect Topaz,"Antidote Potion,Blinkbats Form",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Centurion,"Stamina Potion,Pul Rune,Hard Leather,Identify Scroll",The Centurion,EXISTING
+Junk Market,The Centurion -> Perfect Topaz,"Antidote Potion,The Centurion",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Twitchthroe,"Stamina Potion,Pul Rune,Studded Leather,Identify Scroll",Twitchthroe,EXISTING
+Junk Market,Twitchthroe -> Perfect Topaz,"Antidote Potion,Twitchthroe",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Darkglow,"Stamina Potion,Pul Rune,Ring Mail,Identify Scroll",Darkglow,EXISTING
+Junk Market,Darkglow -> Perfect Topaz,"Antidote Potion,Darkglow",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hawkmail,"Stamina Potion,Pul Rune,Scale Mail,Identify Scroll",Hawkmail,EXISTING
+Junk Market,Hawkmail -> Perfect Topaz,"Antidote Potion,Hawkmail",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Sparking Mail,"Stamina Potion,Pul Rune,Chain Mail,Identify Scroll",Sparking Mail,EXISTING
+Junk Market,Sparking Mail -> Perfect Topaz,"Antidote Potion,Sparking Mail",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Venomsward,"Stamina Potion,Pul Rune,Breast Plate,Identify Scroll",Venomsward,EXISTING
+Junk Market,Venomsward -> Perfect Topaz,"Antidote Potion,Venomsward",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Iceblink,"Stamina Potion,Pul Rune,Splint Mail,Identify Scroll",Iceblink,EXISTING
+Junk Market,Iceblink -> Perfect Topaz,"Antidote Potion,Iceblink",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Boneflesh,"Stamina Potion,Pul Rune,Plate Mail,Identify Scroll",Boneflesh,EXISTING
+Junk Market,Boneflesh -> Perfect Topaz,"Antidote Potion,Boneflesh",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rockfleece,"Stamina Potion,Pul Rune,Field Plate,Identify Scroll",Rockfleece,EXISTING
+Junk Market,Rockfleece -> Perfect Topaz,"Antidote Potion,Rockfleece",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rattlecage,"Stamina Potion,Pul Rune,Gothic Plate,Identify Scroll",Rattlecage,EXISTING
+Junk Market,Rattlecage -> Perfect Topaz,"Antidote Potion,Rattlecage",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Goldskin,"Stamina Potion,Pul Rune,Full Plate Mail,Identify Scroll",Goldskin,EXISTING
+Junk Market,Goldskin -> Perfect Topaz,"Antidote Potion,Goldskin",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Victors Silk,"Stamina Potion,Pul Rune,Ancient Armor,Identify Scroll",Victors Silk,EXISTING
+Junk Market,Victors Silk -> Perfect Topaz,"Antidote Potion,Victors Silk",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Heavenly Garb,"Stamina Potion,Pul Rune,Light Plate,Identify Scroll",Heavenly Garb,EXISTING
+Junk Market,Heavenly Garb -> Perfect Topaz,"Antidote Potion,Heavenly Garb",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Pelta Lunata,"Stamina Potion,Pul Rune,Buckler,Identify Scroll",Pelta Lunata,EXISTING
+Junk Market,Pelta Lunata -> Perfect Topaz,"Antidote Potion,Pelta Lunata",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Umbral Disk,"Stamina Potion,Pul Rune,Small Shield,Identify Scroll",Umbral Disk,EXISTING
+Junk Market,Umbral Disk -> Perfect Topaz,"Antidote Potion,Umbral Disk",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stormguild,"Stamina Potion,Pul Rune,Large Shield,Identify Scroll",Stormguild,EXISTING
+Junk Market,Stormguild -> Perfect Topaz,"Antidote Potion,Stormguild",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Wall of the Eyeless,"Stamina Potion,Pul Rune,Bone Shield,Identify Scroll",Wall of the Eyeless,EXISTING
+Junk Market,Wall of the Eyeless -> Perfect Topaz,"Antidote Potion,Wall of the Eyeless",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Swordback Hold,"Stamina Potion,Pul Rune,Spiked Shield,Identify Scroll",Swordback Hold,EXISTING
+Junk Market,Swordback Hold -> Perfect Topaz,"Antidote Potion,Swordback Hold",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Steelclash,"Stamina Potion,Pul Rune,Kite Shield,Identify Scroll",Steelclash,EXISTING
+Junk Market,Steelclash -> Perfect Topaz,"Antidote Potion,Steelclash",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bverrit Keep,"Stamina Potion,Pul Rune,Tower Shield,Identify Scroll",Bverrit Keep,EXISTING
+Junk Market,Bverrit Keep -> Perfect Topaz,"Antidote Potion,Bverrit Keep",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Ward,"Stamina Potion,Pul Rune,Gothic Shield,Identify Scroll",The Ward,EXISTING
+Junk Market,The Ward -> Perfect Topaz,"Antidote Potion,The Ward",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Frostburn,"Stamina Potion,Pul Rune,Gauntlets,Identify Scroll",Frostburn,EXISTING
+Junk Market,Frostburn -> Perfect Topaz,"Antidote Potion,Frostburn",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gorefoot,"Stamina Potion,Pul Rune,Heavy Boots,Identify Scroll",Gorefoot,EXISTING
+Junk Market,Gorefoot -> Perfect Topaz,"Antidote Potion,Gorefoot",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Treads of Cthon,"Stamina Potion,Pul Rune,Chain Boots,Identify Scroll",Treads of Cthon,EXISTING
+Junk Market,Treads of Cthon -> Perfect Topaz,"Antidote Potion,Treads of Cthon",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Goblin Toe,"Stamina Potion,Pul Rune,Light Plate,Identify Scroll",Goblin Toe,EXISTING
+Junk Market,Goblin Toe -> Perfect Topaz,"Antidote Potion,Goblin Toe",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Tearhaunch,"Stamina Potion,Pul Rune,Greaves,Identify Scroll",Tearhaunch,EXISTING
+Junk Market,Tearhaunch -> Perfect Topaz,"Antidote Potion,Tearhaunch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lenyms Cord,"Stamina Potion,Pul Rune,Sash,Identify Scroll",Lenyms Cord,EXISTING
+Junk Market,Lenyms Cord -> Perfect Topaz,"Antidote Potion,Lenyms Cord",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Snakecord,"Stamina Potion,Pul Rune,Light Belt,Identify Scroll",Snakecord,EXISTING
+Junk Market,Snakecord -> Perfect Topaz,"Antidote Potion,Snakecord",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Nightsmoke,"Stamina Potion,Pul Rune,Belt,Identify Scroll",Nightsmoke,EXISTING
+Junk Market,Nightsmoke -> Perfect Topaz,"Antidote Potion,Nightsmoke",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Goldwrap,"Stamina Potion,Pul Rune,Heavy Belt,Identify Scroll",Goldwrap,EXISTING
+Junk Market,Goldwrap -> Perfect Topaz,"Antidote Potion,Goldwrap",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bladebuckle,"Stamina Potion,Pul Rune,Plated Belt,Identify Scroll",Bladebuckle,EXISTING
+Junk Market,Bladebuckle -> Perfect Topaz,"Antidote Potion,Bladebuckle",Perfect Topaz,EXISTING
+Junk Market,Fal Rune -> Nokozan Relic,"Stamina Potion,Fal Rune,amulet,Identify Scroll",Nokozan Relic,EXISTING
+Junk Market,Nokozan Relic -> Perfect Topaz,"Antidote Potion,Nokozan Relic",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Eye of Etlich,"Stamina Potion,Pul Rune,amulet,Identify Scroll",The Eye of Etlich,EXISTING
+Junk Market,The Eye of Etlich -> Perfect Topaz,"Antidote Potion,The Eye of Etlich",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Mahim-Oak Curio,"Stamina Potion,Pul Rune,amulet,Fal Rune",The Mahim-Oak Curio,EXISTING
+Junk Market,The Mahim-Oak Curio -> Perfect Topaz,"Antidote Potion,The Mahim-Oak Curio",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Manald Heal,"Stamina Potion,Pul Rune,ring,Thawing Potion",Manald Heal,EXISTING
+Junk Market,Manald Heal -> Perfect Topaz,"Antidote Potion,Manald Heal",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Coldkill,"Stamina Potion,Pul Rune,Hatchet,Identify Scroll",Coldkill,EXISTING
+Junk Market,Coldkill -> Perfect Topaz,"Antidote Potion,Coldkill",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Butcher's Pupil,"Stamina Potion,Pul Rune,Cleaver,Identify Scroll",Butcher's Pupil,EXISTING
+Junk Market,Butcher's Pupil -> Perfect Topaz,"Antidote Potion,Butcher's Pupil",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Islestrike,"Stamina Potion,Pul Rune,Twin Axe,Identify Scroll",Islestrike,EXISTING
+Junk Market,Islestrike -> Perfect Topaz,"Antidote Potion,Islestrike",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Pompe's Wrath,"Stamina Potion,Pul Rune,Crowbill,Identify Scroll",Pompe's Wrath,EXISTING
+Junk Market,Pompe's Wrath -> Perfect Topaz,"Antidote Potion,Pompe's Wrath",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Guardian Naga,"Stamina Potion,Pul Rune,Naga,Identify Scroll",Guardian Naga,EXISTING
+Junk Market,Guardian Naga -> Perfect Topaz,"Antidote Potion,Guardian Naga",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Warlord's Trust,"Stamina Potion,Pul Rune,Military Axe,Identify Scroll",Warlord's Trust,EXISTING
+Junk Market,Warlord's Trust -> Perfect Topaz,"Antidote Potion,Warlord's Trust",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spellsteel,"Stamina Potion,Pul Rune,Bearded Axe,Identify Scroll",Spellsteel,EXISTING
+Junk Market,Spellsteel -> Perfect Topaz,"Antidote Potion,Spellsteel",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stormrider,"Stamina Potion,Pul Rune,Tabar,Identify Scroll",Stormrider,EXISTING
+Junk Market,Stormrider -> Perfect Topaz,"Antidote Potion,Stormrider",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Boneslayer Blade,"Stamina Potion,Pul Rune,Gothic Axe,Identify Scroll",Boneslayer Blade,EXISTING
+Junk Market,Boneslayer Blade -> Perfect Topaz,"Antidote Potion,Boneslayer Blade",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Minataur,"Stamina Potion,Pul Rune,Ancient Axe,Identify Scroll",The Minataur,EXISTING
+Junk Market,The Minataur -> Perfect Topaz,"Antidote Potion,The Minataur",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Suicide Branch,"Stamina Potion,Pul Rune,Burnt Wand,Identify Scroll",Suicide Branch,EXISTING
+Junk Market,Suicide Branch -> Perfect Topaz,"Antidote Potion,Suicide Branch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Carin Shard,"Stamina Potion,Pul Rune,Petrified Wand,Identify Scroll",Carin Shard,EXISTING
+Junk Market,Carin Shard -> Perfect Topaz,"Antidote Potion,Carin Shard",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Arm of King Leoric,"Stamina Potion,Pul Rune,Tomb Wand,Identify Scroll",Arm of King Leoric,EXISTING
+Junk Market,Arm of King Leoric -> Perfect Topaz,"Antidote Potion,Arm of King Leoric",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blackhand Key,"Stamina Potion,Pul Rune,Grave Wand,Identify Scroll",Blackhand Key,EXISTING
+Junk Market,Blackhand Key -> Perfect Topaz,"Antidote Potion,Blackhand Key",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Dark Clan Crusher,"Stamina Potion,Pul Rune,Cudgel,Identify Scroll",Dark Clan Crusher,EXISTING
+Junk Market,Dark Clan Crusher -> Perfect Topaz,"Antidote Potion,Dark Clan Crusher",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Zakarum's Hand,"Stamina Potion,Pul Rune,Rune Sceptre,Identify Scroll",Zakarum's Hand,EXISTING
+Junk Market,Zakarum's Hand -> Perfect Topaz,"Antidote Potion,Zakarum's Hand",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Fetid Sprinkler,"Stamina Potion,Pul Rune,Holy Water Spri,Identify Scroll",The Fetid Sprinkler,EXISTING
+Junk Market,The Fetid Sprinkler -> Perfect Topaz,"Antidote Potion,The Fetid Sprinkler",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hand of Blessed Light,"Stamina Potion,Pul Rune,Divine Sceptre,Identify Scroll",Hand of Blessed Light,EXISTING
+Junk Market,Hand of Blessed Light -> Perfect Topaz,"Antidote Potion,Hand of Blessed Light",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Fleshrender,"Stamina Potion,Pul Rune,Barbed Club,Identify Scroll",Fleshrender,EXISTING
+Junk Market,Fleshrender -> Perfect Topaz,"Antidote Potion,Fleshrender",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Sureshrill Frost,"Stamina Potion,Pul Rune,Flanged Mace,Identify Scroll",Sureshrill Frost,EXISTING
+Junk Market,Sureshrill Frost -> Perfect Topaz,"Antidote Potion,Sureshrill Frost",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Moonfall,"Stamina Potion,Pul Rune,Jagged Star,Identify Scroll",Moonfall,EXISTING
+Junk Market,Moonfall -> Perfect Topaz,"Antidote Potion,Moonfall",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Baezil's Vortex,"Stamina Potion,Pul Rune,Knout,Identify Scroll",Baezil's Vortex,EXISTING
+Junk Market,Baezil's Vortex -> Perfect Topaz,"Antidote Potion,Baezil's Vortex",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Earthshaker,"Stamina Potion,Pul Rune,Battle Hammer,Identify Scroll",Earthshaker,EXISTING
+Junk Market,Earthshaker -> Perfect Topaz,"Antidote Potion,Earthshaker",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bloodtree Stump,"Stamina Potion,Pul Rune,War Club,Identify Scroll",Bloodtree Stump,EXISTING
+Junk Market,Bloodtree Stump -> Perfect Topaz,"Antidote Potion,Bloodtree Stump",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Gavel of Pain,"Stamina Potion,Pul Rune,Martel de Fer,Identify Scroll",The Gavel of Pain,EXISTING
+Junk Market,The Gavel of Pain -> Perfect Topaz,"Antidote Potion,The Gavel of Pain",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bloodletter,"Stamina Potion,Pul Rune,Gladius,Identify Scroll",Bloodletter,EXISTING
+Junk Market,Bloodletter -> Perfect Topaz,"Antidote Potion,Bloodletter",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Coldsteel Eye,"Stamina Potion,Pul Rune,Cutlass,Identify Scroll",Coldsteel Eye,EXISTING
+Junk Market,Coldsteel Eye -> Perfect Topaz,"Antidote Potion,Coldsteel Eye",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hexfire,"Stamina Potion,Pul Rune,Shamshir,Identify Scroll",Hexfire,EXISTING
+Junk Market,Hexfire -> Perfect Topaz,"Antidote Potion,Hexfire",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ginther's Rift,"Stamina Potion,Pul Rune,Dimensional Bld,Identify Scroll",Ginther's Rift,EXISTING
+Junk Market,Ginther's Rift -> Perfect Topaz,"Antidote Potion,Ginther's Rift",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Headstriker,"Stamina Potion,Pul Rune,Battle Sword,Identify Scroll",Headstriker,EXISTING
+Junk Market,Headstriker -> Perfect Topaz,"Antidote Potion,Headstriker",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Plague Bearer,"Stamina Potion,Pul Rune,Rune Sword,Identify Scroll",Plague Bearer,EXISTING
+Junk Market,Plague Bearer -> Perfect Topaz,"Antidote Potion,Plague Bearer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Atlantian,"Stamina Potion,Pul Rune,Ancient Sword,Identify Scroll",The Atlantian,EXISTING
+Junk Market,The Atlantian -> Perfect Topaz,"Antidote Potion,The Atlantian",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Crainte Vomir,"Stamina Potion,Pul Rune,Espadon,Identify Scroll",Crainte Vomir,EXISTING
+Junk Market,Crainte Vomir -> Perfect Topaz,"Antidote Potion,Crainte Vomir",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bing Sz Wang,"Stamina Potion,Pul Rune,Dacian Falx,Identify Scroll",Bing Sz Wang,EXISTING
+Junk Market,Bing Sz Wang -> Perfect Topaz,"Antidote Potion,Bing Sz Wang",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Vile Husk,"Stamina Potion,Pul Rune,Tusk Sword,Identify Scroll",The Vile Husk,EXISTING
+Junk Market,The Vile Husk -> Perfect Topaz,"Antidote Potion,The Vile Husk",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Cloudcrack,"Stamina Potion,Pul Rune,Gothic Sword,Identify Scroll",Cloudcrack,EXISTING
+Junk Market,Cloudcrack -> Perfect Topaz,"Antidote Potion,Cloudcrack",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Todesfaelle Flamme,"Stamina Potion,Pul Rune,Zweihander,Identify Scroll",Todesfaelle Flamme,EXISTING
+Junk Market,Todesfaelle Flamme -> Perfect Topaz,"Antidote Potion,Todesfaelle Flamme",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Swordguard,"Stamina Potion,Pul Rune,Executioner Swr,Identify Scroll",Swordguard,EXISTING
+Junk Market,Swordguard -> Perfect Topaz,"Antidote Potion,Swordguard",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spineripper,"Stamina Potion,Pul Rune,Poignard,Identify Scroll",Spineripper,EXISTING
+Junk Market,Spineripper -> Perfect Topaz,"Antidote Potion,Spineripper",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Heart Carver,"Stamina Potion,Pul Rune,Rondel,Identify Scroll",Heart Carver,EXISTING
+Junk Market,Heart Carver -> Perfect Topaz,"Antidote Potion,Heart Carver",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blackbog's Sharp,"Stamina Potion,Pul Rune,Cinquedeas,Identify Scroll",Blackbog's Sharp,EXISTING
+Junk Market,Blackbog's Sharp -> Perfect Topaz,"Antidote Potion,Blackbog's Sharp",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Impaler,"Stamina Potion,Pul Rune,War Spear,Identify Scroll",The Impaler,EXISTING
+Junk Market,The Impaler -> Perfect Topaz,"Antidote Potion,The Impaler",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Kelpie Snare,"Stamina Potion,Pul Rune,Fuscina,Identify Scroll",Kelpie Snare,EXISTING
+Junk Market,Kelpie Snare -> Perfect Topaz,"Antidote Potion,Kelpie Snare",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Soulfeast Tine,"Stamina Potion,Pul Rune,War Fork,Identify Scroll",Soulfeast Tine,EXISTING
+Junk Market,Soulfeast Tine -> Perfect Topaz,"Antidote Potion,Soulfeast Tine",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hone Sundan,"Stamina Potion,Pul Rune,Yari,Identify Scroll",Hone Sundan,EXISTING
+Junk Market,Hone Sundan -> Perfect Topaz,"Antidote Potion,Hone Sundan",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spire of Honor,"Stamina Potion,Pul Rune,Lance,Identify Scroll",Spire of Honor,EXISTING
+Junk Market,Spire of Honor -> Perfect Topaz,"Antidote Potion,Spire of Honor",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Meat Scraper,"Stamina Potion,Pul Rune,Lochaber Axe,Identify Scroll",The Meat Scraper,EXISTING
+Junk Market,The Meat Scraper -> Perfect Topaz,"Antidote Potion,The Meat Scraper",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blackleach Blade,"Stamina Potion,Pul Rune,Bill,Identify Scroll",Blackleach Blade,EXISTING
+Junk Market,Blackleach Blade -> Perfect Topaz,"Antidote Potion,Blackleach Blade",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Athena's Wrath,"Stamina Potion,Pul Rune,Battle Scythe,Identify Scroll",Athena's Wrath,EXISTING
+Junk Market,Athena's Wrath -> Perfect Topaz,"Antidote Potion,Athena's Wrath",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Pierre Tombale Couant,"Stamina Potion,Pul Rune,Partizan,Identify Scroll",Pierre Tombale Couant,EXISTING
+Junk Market,Pierre Tombale Couant -> Perfect Topaz,"Antidote Potion,Pierre Tombale Couant",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Husoldal Evo,"Stamina Potion,Pul Rune,Bec-de-Corbin,Identify Scroll",Husoldal Evo,EXISTING
+Junk Market,Husoldal Evo -> Perfect Topaz,"Antidote Potion,Husoldal Evo",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Grim's Burning Dead,"Stamina Potion,Pul Rune,Grim Scythe,Identify Scroll",Grim's Burning Dead,EXISTING
+Junk Market,Grim's Burning Dead -> Perfect Topaz,"Antidote Potion,Grim's Burning Dead",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Razorswitch,"Stamina Potion,Pul Rune,Jo Staff,Identify Scroll",Razorswitch,EXISTING
+Junk Market,Razorswitch -> Perfect Topaz,"Antidote Potion,Razorswitch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Chromatic Ire,"Stamina Potion,Pul Rune,Cedar Staff,Identify Scroll",Chromatic Ire,EXISTING
+Junk Market,Chromatic Ire -> Perfect Topaz,"Antidote Potion,Chromatic Ire",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Skullcollector,"Stamina Potion,Pul Rune,Rune Staff,Identify Scroll",Skullcollector,EXISTING
+Junk Market,Skullcollector -> Perfect Topaz,"Antidote Potion,Skullcollector",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Skystrike,"Stamina Potion,Pul Rune,Edge Bow,Identify Scroll",Skystrike,EXISTING
+Junk Market,Skystrike -> Perfect Topaz,"Antidote Potion,Skystrike",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Riphook,"Stamina Potion,Pul Rune,Razor Bow,Identify Scroll",Riphook,EXISTING
+Junk Market,Riphook -> Perfect Topaz,"Antidote Potion,Riphook",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Kuko Shakaku,"Stamina Potion,Pul Rune,Cedar Bow,Identify Scroll",Kuko Shakaku,EXISTING
+Junk Market,Kuko Shakaku -> Perfect Topaz,"Antidote Potion,Kuko Shakaku",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Endlesshail,"Stamina Potion,Pul Rune,Double Bow,Identify Scroll",Endlesshail,EXISTING
+Junk Market,Endlesshail -> Perfect Topaz,"Antidote Potion,Endlesshail",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Cliffkiller,"Stamina Potion,Pul Rune,Long Siege Bow,Identify Scroll",Cliffkiller,EXISTING
+Junk Market,Cliffkiller -> Perfect Topaz,"Antidote Potion,Cliffkiller",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Magewrath,"Stamina Potion,Pul Rune,Rune Bow,Identify Scroll",Magewrath,EXISTING
+Junk Market,Magewrath -> Perfect Topaz,"Antidote Potion,Magewrath",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Godstrike Arch,"Stamina Potion,Pul Rune,Gothic Bow,Identify Scroll",Godstrike Arch,EXISTING
+Junk Market,Godstrike Arch -> Perfect Topaz,"Antidote Potion,Godstrike Arch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Langer Briser,"Stamina Potion,Pul Rune,Arbalest,Identify Scroll",Langer Briser,EXISTING
+Junk Market,Langer Briser -> Perfect Topaz,"Antidote Potion,Langer Briser",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Pus Spiter,"Stamina Potion,Pul Rune,Siege Crossbow,Identify Scroll",Pus Spiter,EXISTING
+Junk Market,Pus Spiter -> Perfect Topaz,"Antidote Potion,Pus Spiter",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Buriza-Do Kyanon,"Stamina Potion,Pul Rune,Ballista,Identify Scroll",Buriza-Do Kyanon,EXISTING
+Junk Market,Buriza-Do Kyanon -> Perfect Topaz,"Antidote Potion,Buriza-Do Kyanon",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Demon Machine,"Stamina Potion,Pul Rune,Chu-Ko-Nu,Identify Scroll",Demon Machine,EXISTING
+Junk Market,Demon Machine -> Perfect Topaz,"Antidote Potion,Demon Machine",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Peasent Crown,"Stamina Potion,Pul Rune,War Hat,Identify Scroll",Peasent Crown,EXISTING
+Junk Market,Peasent Crown -> Perfect Topaz,"Antidote Potion,Peasent Crown",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Rockstopper,"Stamina Potion,Pul Rune,Sallet,Identify Scroll",Rockstopper,EXISTING
+Junk Market,Rockstopper -> Perfect Topaz,"Antidote Potion,Rockstopper",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stealskull,"Stamina Potion,Pul Rune,Casque,Identify Scroll",Stealskull,EXISTING
+Junk Market,Stealskull -> Perfect Topaz,"Antidote Potion,Stealskull",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Darksight Helm,"Stamina Potion,Pul Rune,Basinet,Identify Scroll",Darksight Helm,EXISTING
+Junk Market,Darksight Helm -> Perfect Topaz,"Antidote Potion,Darksight Helm",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Valkiry Wing,"Stamina Potion,Pul Rune,Winged Helm,Identify Scroll",Valkiry Wing,EXISTING
+Junk Market,Valkiry Wing -> Perfect Topaz,"Antidote Potion,Valkiry Wing",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blackhorn's Face,"Stamina Potion,Pul Rune,Death Mask,Identify Scroll",Blackhorn's Face,EXISTING
+Junk Market,Blackhorn's Face -> Perfect Topaz,"Antidote Potion,Blackhorn's Face",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Spirit Shroud,"Stamina Potion,Pul Rune,Ghost Armor,Identify Scroll",The Spirit Shroud,EXISTING
+Junk Market,The Spirit Shroud -> Perfect Topaz,"Antidote Potion,The Spirit Shroud",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Skin of the Flayerd One,"Stamina Potion,Pul Rune,Demonhide Armor,Identify Scroll",Skin of the Flayerd One,EXISTING
+Junk Market,Skin of the Flayerd One -> Perfect Topaz,"Antidote Potion,Skin of the Flayerd One",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ironpelt,"Stamina Potion,Pul Rune,Trellised Armor,Identify Scroll",Ironpelt,EXISTING
+Junk Market,Ironpelt -> Perfect Topaz,"Antidote Potion,Ironpelt",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spiritforge,"Stamina Potion,Pul Rune,Linked Mail,Identify Scroll",Spiritforge,EXISTING
+Junk Market,Spiritforge -> Perfect Topaz,"Antidote Potion,Spiritforge",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Crow Caw,"Stamina Potion,Pul Rune,Tigulated Mail,Identify Scroll",Crow Caw,EXISTING
+Junk Market,Crow Caw -> Perfect Topaz,"Antidote Potion,Crow Caw",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Toothrow,"Stamina Potion,Pul Rune,Sharktooth,Identify Scroll",Toothrow,EXISTING
+Junk Market,Toothrow -> Perfect Topaz,"Antidote Potion,Toothrow",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Atma's Wail,"Stamina Potion,Pul Rune,Embossed Plate,Identify Scroll",Atma's Wail,EXISTING
+Junk Market,Atma's Wail -> Perfect Topaz,"Antidote Potion,Atma's Wail",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Black Hades,"Stamina Potion,Pul Rune,Chaos Armor,Identify Scroll",Black Hades,EXISTING
+Junk Market,Black Hades -> Perfect Topaz,"Antidote Potion,Black Hades",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Corpsemourn,"Stamina Potion,Pul Rune,Ornate Armor,Identify Scroll",Corpsemourn,EXISTING
+Junk Market,Corpsemourn -> Perfect Topaz,"Antidote Potion,Corpsemourn",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Que-Hegan's Wisdon,"Stamina Potion,Pul Rune,Mage Plate,Identify Scroll",Que-Hegan's Wisdon,EXISTING
+Junk Market,Que-Hegan's Wisdon -> Perfect Topaz,"Antidote Potion,Que-Hegan's Wisdon",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Visceratuant,"Stamina Potion,Pul Rune,Defender,Identify Scroll",Visceratuant,EXISTING
+Junk Market,Visceratuant -> Perfect Topaz,"Antidote Potion,Visceratuant",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stormchaser,"Stamina Potion,Pul Rune,Scutum,Identify Scroll",Stormchaser,EXISTING
+Junk Market,Stormchaser -> Perfect Topaz,"Antidote Potion,Stormchaser",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Tiamat's Rebuke,"Stamina Potion,Pul Rune,Dragon Shield,Identify Scroll",Tiamat's Rebuke,EXISTING
+Junk Market,Tiamat's Rebuke -> Perfect Topaz,"Antidote Potion,Tiamat's Rebuke",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Kerke's Sanctuary,"Stamina Potion,Pul Rune,Pavise,Identify Scroll",Kerke's Sanctuary,EXISTING
+Junk Market,Kerke's Sanctuary -> Perfect Topaz,"Antidote Potion,Kerke's Sanctuary",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Radimant's Sphere,"Stamina Potion,Pul Rune,Ancient Shield,Identify Scroll",Radimant's Sphere,EXISTING
+Junk Market,Radimant's Sphere -> Perfect Topaz,"Antidote Potion,Radimant's Sphere",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lance Guard,"Stamina Potion,Pul Rune,Barbed Shield,Identify Scroll",Lance Guard,EXISTING
+Junk Market,Lance Guard -> Perfect Topaz,"Antidote Potion,Lance Guard",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Venom Grip,"Stamina Potion,Pul Rune,Demonhide Glove,Identify Scroll",Venom Grip,EXISTING
+Junk Market,Venom Grip -> Perfect Topaz,"Antidote Potion,Venom Grip",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gravepalm,"Stamina Potion,Pul Rune,Sharkskin Glove,Identify Scroll",Gravepalm,EXISTING
+Junk Market,Gravepalm -> Perfect Topaz,"Antidote Potion,Gravepalm",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ghoulhide,"Stamina Potion,Pul Rune,Heavy Bracers,Identify Scroll",Ghoulhide,EXISTING
+Junk Market,Ghoulhide -> Perfect Topaz,"Antidote Potion,Ghoulhide",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lavagout,"Stamina Potion,Pul Rune,Battle Gauntlet,Identify Scroll",Lavagout,EXISTING
+Junk Market,Lavagout -> Perfect Topaz,"Antidote Potion,Lavagout",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hellmouth,"Stamina Potion,Pul Rune,War Gauntlets,Identify Scroll",Hellmouth,EXISTING
+Junk Market,Hellmouth -> Perfect Topaz,"Antidote Potion,Hellmouth",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Razortail,"Stamina Potion,Pul Rune,Sharkskin Belt,Identify Scroll",Razortail,EXISTING
+Junk Market,Razortail -> Perfect Topaz,"Antidote Potion,Razortail",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gloomstrap,"Stamina Potion,Pul Rune,Mesh Belt,Identify Scroll",Gloomstrap,EXISTING
+Junk Market,Gloomstrap -> Perfect Topaz,"Antidote Potion,Gloomstrap",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Snowclash,"Stamina Potion,Pul Rune,Battle Belt,Identify Scroll",Snowclash,EXISTING
+Junk Market,Snowclash -> Perfect Topaz,"Antidote Potion,Snowclash",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Veil of Steel,"Stamina Potion,Pul Rune,Spired Helm,Identify Scroll",Veil of Steel,EXISTING
+Junk Market,Veil of Steel -> Perfect Topaz,"Antidote Potion,Veil of Steel",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Blackoak Shield,"Stamina Potion,Pul Rune,Luna,Identify Scroll",Blackoak Shield,EXISTING
+Junk Market,Blackoak Shield -> Perfect Topaz,"Antidote Potion,Blackoak Shield",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hellslayer,"Stamina Potion,Pul Rune,Decapitator,Identify Scroll",Hellslayer,EXISTING
+Junk Market,Hellslayer -> Perfect Topaz,"Antidote Potion,Hellslayer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Messerschmidt's Reaver,"Stamina Potion,Pul Rune,Champion Axe,Identify Scroll",Messerschmidt's Reaver,EXISTING
+Junk Market,Messerschmidt's Reaver -> Perfect Topaz,"Antidote Potion,Messerschmidt's Reaver",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Baranar's Star,"Stamina Potion,Pul Rune,7mt,Identify Scroll",Baranar's Star,EXISTING
+Junk Market,Baranar's Star -> Perfect Topaz,"Antidote Potion,Baranar's Star",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lightsabre,"Stamina Potion,Pul Rune,Phase Blade,Identify Scroll",Lightsabre,EXISTING
+Junk Market,Lightsabre -> Perfect Topaz,"Antidote Potion,Lightsabre",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Doombringer,"Stamina Potion,Pul Rune,Champion Sword,Identify Scroll",Doombringer,EXISTING
+Junk Market,Doombringer -> Perfect Topaz,"Antidote Potion,Doombringer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stormspire,"Stamina Potion,Pul Rune,Giant Thresher,Identify Scroll",Stormspire,EXISTING
+Junk Market,Stormspire -> Perfect Topaz,"Antidote Potion,Stormspire",Perfect Topaz,EXISTING
+Junk Market,Lem Rune -> The Cat's Eye,"Stamina Potion,Lem Rune,amulet,Identify Scroll",The Cat's Eye,EXISTING
+Junk Market,The Cat's Eye -> Perfect Topaz,"Antidote Potion,The Cat's Eye",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> The Rising Sun,"Stamina Potion,Pul Rune,amulet,Perfect Diamond",The Rising Sun,EXISTING
+Junk Market,The Rising Sun -> Perfect Topaz,"Antidote Potion,The Rising Sun",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Crescent Moon,"Stamina Potion,Pul Rune,amulet,Ko Rune",Crescent Moon,EXISTING
+Junk Market,Crescent Moon -> Perfect Topaz,"Antidote Potion,Crescent Moon",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Dwarf Star,"Stamina Potion,Pul Rune,ring,Perfect Amethyst",Dwarf Star,EXISTING
+Junk Market,Dwarf Star -> Perfect Topaz,"Antidote Potion,Dwarf Star",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Raven Frost,"Stamina Potion,Pul Rune,ring,Perfect Sapphire",Raven Frost,EXISTING
+Junk Market,Raven Frost -> Perfect Topaz,"Antidote Potion,Raven Frost",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Saracen's Chance,"Stamina Potion,Pul Rune,amulet,Io Rune",Saracen's Chance,EXISTING
+Junk Market,Saracen's Chance -> Perfect Topaz,"Antidote Potion,Saracen's Chance",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lycander's Flank,"Stamina Potion,Pul Rune,Ceremonial Pike,Identify Scroll",Lycander's Flank,EXISTING
+Junk Market,Lycander's Flank -> Perfect Topaz,"Antidote Potion,Lycander's Flank",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Bloodmoon,"Stamina Potion,Pul Rune,Elegant Blade,Identify Scroll",Bloodmoon,EXISTING
+Junk Market,Bloodmoon -> Perfect Topaz,"Antidote Potion,Bloodmoon",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Djinnslayer,"Stamina Potion,Pul Rune,Ataghan,Identify Scroll",Djinnslayer,EXISTING
+Junk Market,Djinnslayer -> Perfect Topaz,"Antidote Potion,Djinnslayer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gutsiphon,"Stamina Potion,Pul Rune,Demon Crossbow,Identify Scroll",Gutsiphon,EXISTING
+Junk Market,Gutsiphon -> Perfect Topaz,"Antidote Potion,Gutsiphon",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Razoredge,"Stamina Potion,Pul Rune,Tomahawk,Identify Scroll",Razoredge,EXISTING
+Junk Market,Razoredge -> Perfect Topaz,"Antidote Potion,Razoredge",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Demonlimb,"Stamina Potion,Pul Rune,Tyrant Club,Identify Scroll",Demonlimb,EXISTING
+Junk Market,Demonlimb -> Perfect Topaz,"Antidote Potion,Demonlimb",Perfect Topaz,EXISTING
+Junk Market,Lem Rune -> Steelshade,"Stamina Potion,Lem Rune,Armet,Identify Scroll",Steelshade,EXISTING
+Junk Market,Steelshade -> Perfect Topaz,"Antidote Potion,Steelshade",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Nature's Peace,"Stamina Potion,Pul Rune,ring,Perfect Ruby",Nature's Peace,EXISTING
+Junk Market,Nature's Peace -> Perfect Topaz,"Antidote Potion,Nature's Peace",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Horizon's Tornado,"Stamina Potion,Pul Rune,Scourge,Identify Scroll",Horizon's Tornado,EXISTING
+Junk Market,Horizon's Tornado -> Perfect Topaz,"Antidote Potion,Horizon's Tornado",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stone Crusher,"Stamina Potion,Pul Rune,Legendary Mallt,Identify Scroll",Stone Crusher,EXISTING
+Junk Market,Stone Crusher -> Perfect Topaz,"Antidote Potion,Stone Crusher",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Cerebus,"Stamina Potion,Pul Rune,Blood Spirit,Identify Scroll",Cerebus,EXISTING
+Junk Market,Cerebus -> Perfect Topaz,"Antidote Potion,Cerebus",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Souldrain,"Stamina Potion,Pul Rune,Vambraces,Identify Scroll",Souldrain,EXISTING
+Junk Market,Souldrain -> Perfect Topaz,"Antidote Potion,Souldrain",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Executioner's Justice,"Stamina Potion,Pul Rune,Glorious Axe,Identify Scroll",Executioner's Justice,EXISTING
+Junk Market,Executioner's Justice -> Perfect Topaz,"Antidote Potion,Executioner's Justice",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Stoneraven,"Stamina Potion,Pul Rune,Matriarchal Spr,Identify Scroll",Stoneraven,EXISTING
+Junk Market,Stoneraven -> Perfect Topaz,"Antidote Potion,Stoneraven",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gargoyle's Bite,"Stamina Potion,Pul Rune,Winged Harpoon,Identify Scroll",Gargoyle's Bite,EXISTING
+Junk Market,Gargoyle's Bite -> Perfect Topaz,"Antidote Potion,Gargoyle's Bite",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Lacerator,"Stamina Potion,Pul Rune,Winged Axe,Identify Scroll",Lacerator,EXISTING
+Junk Market,Lacerator -> Perfect Topaz,"Antidote Potion,Lacerator",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Viperfork,"Stamina Potion,Pul Rune,Mancatcher,Identify Scroll",Viperfork,EXISTING
+Junk Market,Viperfork -> Perfect Topaz,"Antidote Potion,Viperfork",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ethereal Edge,"Stamina Potion,Pul Rune,Silver Edged Ax,Identify Scroll",Ethereal Edge,EXISTING
+Junk Market,Ethereal Edge -> Perfect Topaz,"Antidote Potion,Ethereal Edge",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Demonhorn's Edge,"Stamina Potion,Pul Rune,Destroyer Helm,Identify Scroll",Demonhorn's Edge,EXISTING
+Junk Market,Demonhorn's Edge -> Perfect Topaz,"Antidote Potion,Demonhorn's Edge",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spiritkeeper,"Stamina Potion,Pul Rune,Earth Spirit,Identify Scroll",Spiritkeeper,EXISTING
+Junk Market,Spiritkeeper -> Perfect Topaz,"Antidote Potion,Spiritkeeper",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Hellrack,"Stamina Potion,Pul Rune,Colossus x-bow,Identify Scroll",Hellrack,EXISTING
+Junk Market,Hellrack -> Perfect Topaz,"Antidote Potion,Hellrack",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Alma Negra,"Stamina Potion,Pul Rune,Sacred Rondache,Identify Scroll",Alma Negra,EXISTING
+Junk Market,Alma Negra -> Perfect Topaz,"Antidote Potion,Alma Negra",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Darkforge Spawn,"Stamina Potion,Pul Rune,Bloodlord Skull,Identify Scroll",Darkforge Spawn,EXISTING
+Junk Market,Darkforge Spawn -> Perfect Topaz,"Antidote Potion,Darkforge Spawn",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Ghostflame,"Stamina Potion,Pul Rune,Legend Spike,Identify Scroll",Ghostflame,EXISTING
+Junk Market,Ghostflame -> Perfect Topaz,"Antidote Potion,Ghostflame",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Shadowkiller,"Stamina Potion,Pul Rune,Battle Cestus,Identify Scroll",Shadowkiller,EXISTING
+Junk Market,Shadowkiller -> Perfect Topaz,"Antidote Potion,Shadowkiller",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Gimmershred,"Stamina Potion,Pul Rune,Flying Axe,Identify Scroll",Gimmershred,EXISTING
+Junk Market,Gimmershred -> Perfect Topaz,"Antidote Potion,Gimmershred",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Windhammer,"Stamina Potion,Pul Rune,Ogre Maul,Identify Scroll",Windhammer,EXISTING
+Junk Market,Windhammer -> Perfect Topaz,"Antidote Potion,Windhammer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Demon's Arch,"Stamina Potion,Pul Rune,Balrog Spear,Identify Scroll",Demon's Arch,EXISTING
+Junk Market,Demon's Arch -> Perfect Topaz,"Antidote Potion,Demon's Arch",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Steelpillar,"Stamina Potion,Pul Rune,War Pike,Identify Scroll",Steelpillar,EXISTING
+Junk Market,Steelpillar -> Perfect Topaz,"Antidote Potion,Steelpillar",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Darkfear,"Stamina Potion,Pul Rune,Armet,Identify Scroll",Darkfear,EXISTING
+Junk Market,Darkfear -> Perfect Topaz,"Antidote Potion,Darkfear",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Steel Carapice,"Stamina Potion,Pul Rune,Shadow Plate,Identify Scroll",Steel Carapice,EXISTING
+Junk Market,Steel Carapice -> Perfect Topaz,"Antidote Potion,Steel Carapice",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Medusa's Gaze,"Stamina Potion,Pul Rune,Aegis,Identify Scroll",Medusa's Gaze,EXISTING
+Junk Market,Medusa's Gaze -> Perfect Topaz,"Antidote Potion,Medusa's Gaze",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Flamebellow,"Stamina Potion,Pul Rune,Balrog Blade,Identify Scroll",Flamebellow,EXISTING
+Junk Market,Flamebellow -> Perfect Topaz,"Antidote Potion,Flamebellow",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spirit Ward,"Stamina Potion,Pul Rune,Ward,Identify Scroll",Spirit Ward,EXISTING
+Junk Market,Spirit Ward -> Perfect Topaz,"Antidote Potion,Spirit Ward",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Halaberd's Reign,"Stamina Potion,Pul Rune,Conqueror Crown,Identify Scroll",Halaberd's Reign,EXISTING
+Junk Market,Halaberd's Reign -> Perfect Topaz,"Antidote Potion,Halaberd's Reign",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Spike Thorn,"Stamina Potion,Pul Rune,Blade Barrier,Identify Scroll",Spike Thorn,EXISTING
+Junk Market,Spike Thorn -> Perfect Topaz,"Antidote Potion,Spike Thorn",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Frostwind,"Stamina Potion,Pul Rune,Cryptic Sword,Identify Scroll",Frostwind,EXISTING
+Junk Market,Frostwind -> Perfect Topaz,"Antidote Potion,Frostwind",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Firelizard's Talons,"Stamina Potion,Pul Rune,Feral Claws,Identify Scroll",Firelizard's Talons,EXISTING
+Junk Market,Firelizard's Talons -> Perfect Topaz,"Antidote Potion,Firelizard's Talons",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Nosferatu's Coil,"Stamina Potion,Pul Rune,Vampirefang Blt,Identify Scroll",Nosferatu's Coil,EXISTING
+Junk Market,Nosferatu's Coil -> Perfect Topaz,"Antidote Potion,Nosferatu's Coil",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Cranebeak,"Stamina Potion,Pul Rune,War Spike,Identify Scroll",Cranebeak,EXISTING
+Junk Market,Cranebeak -> Perfect Topaz,"Antidote Potion,Cranebeak",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Nord's Tenderizer,"Stamina Potion,Pul Rune,Truncheon,Identify Scroll",Nord's Tenderizer,EXISTING
+Junk Market,Nord's Tenderizer -> Perfect Topaz,"Antidote Potion,Nord's Tenderizer",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Earthshifter,"Stamina Potion,Pul Rune,Thunder Maul,Identify Scroll",Earthshifter,EXISTING
+Junk Market,Earthshifter -> Perfect Topaz,"Antidote Potion,Earthshifter",Perfect Topaz,EXISTING
+Junk Market,Pul Rune -> Wraithflight,"Stamina Potion,Pul Rune,Ghost Glaive,Identify Scroll",Wraithflight,EXISTING
+Junk Market,Wraithflight -> Perfect Topaz,"Antidote Potion,Wraithflight",Perfect Topaz,EXISTING
+Endgame Market,Vex -> Ancient 1,"Vex Rune,El Rune,Thawing Potion",Act 1 Statue,EXISTING
+Endgame Market,Vex -> Ancient 2,"Vex Rune,Eld Rune,Thawing Potion",Act 2 Statue,EXISTING
+Endgame Market,Vex -> Ancient 3,"Vex Rune,Tir Rune,Thawing Potion",Act 3 Statue,EXISTING
+Endgame Market,Vex -> Ancient 4,"Vex Rune,Nef Rune,Thawing Potion",Act 4 Statue,EXISTING
+Endgame Market,Vex -> Ancient 5,"Vex Rune,Eth Rune,Thawing Potion",Act 5 Statue,EXISTING
+Endgame Market,Ancient 1 -> Vex,"Act 1 Statue,Thawing Potion",Vex Rune,EXISTING
+Endgame Market,Ancient 2 -> Vex,"Act 2 Statue,Thawing Potion",Vex Rune,EXISTING
+Endgame Market,Ancient 3 -> Vex,"Act 3 Statue,Thawing Potion",Vex Rune,EXISTING
+Endgame Market,Ancient 4 -> Vex,"Act 4 Statue,Thawing Potion",Vex Rune,EXISTING
+Endgame Market,Ancient 5 -> Vex,"Act 5 Statue,Thawing Potion",Vex Rune,EXISTING
+Endgame Market,Defender's Bile -> Sur Rune,"Antidote Potion,Defender's Bile",Sur Rune,EXISTING
+Endgame Market,Guardian's Thunder -> Sur Rune,"Antidote Potion,Guardian's Thunder",Sur Rune,EXISTING
+Endgame Market,Protector's Frost -> Sur Rune,"Antidote Potion,Protector's Frost",Sur Rune,EXISTING
+Endgame Market,Defender's Fire -> Sur Rune,"Antidote Potion,Defender's Fire",Sur Rune,EXISTING
+Endgame Market,Protector's Statue -> Sur Rune,"Antidote Potion,Protector's Statue",Sur Rune,EXISTING
+Endgame Market,Guardian's Light -> Sur Rune,"Antidote Potion,Guardian's Light",Sur Rune,EXISTING
+Endgame Market,Torch -> Vex Ist,"Hellfire Torch,Antidote Potion","Vex Rune,UmRune",EXISTING
+Endgame Market,Keys -> Ist,"1x3 keyset, Thawing Potion",Ist Rune,EXISTING
+Endgame Market,Ist -> Keys,"Ist Rune,Thawing Potion",1x3 Keyset,EXISTING
+Endgame Market,Key 1 + Pul = Key 2,"Key of Terror,Pul Rune,Thawing Potion",Key of Hatred,EXISTING
+Endgame Market,Key 2 + Pul = Key 3,"Key of Hatred,Pul Rune,Thawing Potion",Key of Destruction,EXISTING
+Endgame Market,Key 3 + Pul = Key 1,"Key of Destruction,Pul Rune,Thawing Potion",Key of Terror,EXISTING
+Endgame Market,Annihilus -> Ohm Vex,"Antidote Potion,Annihilus","Ohm Rune, Vex Rune",EXISTING
+Base Market,"Vex Rune -> Berserker Axe,nor,sock=5","Stamina Potion,Vex Rune,El Rune,Flawless Diamond","Berserker Axe,nor,sock=5",EXISTING
+Base Market,"Ist Rune -> Berserker Axe,nor,eth,sock=4","Stamina Potion,Ist Rune,Eld Rune,Flawless Diamond","Berserker Axe,nor,eth,sock=4",EXISTING
+Base Market,"Lo Rune -> Berserker Axe,nor,eth,sock=5","Stamina Potion,Lo Rune,Tir Rune,Flawless Diamond","Berserker Axe,nor,eth,sock=5",EXISTING
+Base Market,"Vex Rune -> Berserker Axe,nor,eth,sock=6","Stamina Potion,Vex Rune,Nef Rune,Flawless Diamond","Berserker Axe,nor,eth,sock=6",EXISTING
+Base Market,"Vex Rune -> Berserker Axe,nor,eth","Stamina Potion,Vex Rune,Eth Rune,Flawless Diamond","Berserker Axe,nor,eth",EXISTING
+Base Market,"Ist Rune -> Ettin Axe,nor,eth","Stamina Potion,Ist Rune,Ith Rune,Flawless Diamond","Ettin Axe,nor,eth",EXISTING
+Base Market,"Um Rune -> Ettin Axe,nor,eth,sock=4","Stamina Potion,Um Rune,Tal Rune,Flawless Diamond","Ettin Axe,nor,eth,sock=4",EXISTING
+Base Market,"Ist Rune -> Ettin Axe,nor,eth,sock=5","Stamina Potion,Ist Rune,Ral Rune,Flawless Diamond","Ettin Axe,nor,eth,sock=5",EXISTING
+Base Market,"Um Rune -> Scourge,nor,eth,sock=4","Stamina Potion,Um Rune,Ort Rune,Flawless Diamond","Scourge,nor,eth,sock=4",EXISTING
+Base Market,"Pul Rune -> Small Crescent,nor,eth,sock=4","Stamina Potion,Pul Rune,Thul Rune,Flawless Diamond","Small Crescent,nor,eth,sock=4",EXISTING
+Base Market,"Um Rune -> Crystal Sword,nor,eth,sock=5","Stamina Potion,Um Rune,El Rune,Flawless Emerald","Crystal Sword,nor,eth,sock=5",EXISTING
+Base Market,"Pul Rune -> Phase Blade,nor,sock=3","Stamina Potion,Pul Rune,Eld Rune,Flawless Emerald","Phase Blade,nor,sock=3",EXISTING
+Base Market,"Pul Rune -> Phase Blade,nor,sock=4","Stamina Potion,Pul Rune,Tir Rune,Flawless Emerald","Phase Blade,nor,sock=4",EXISTING
+Base Market,"Pul Rune -> Phase Blade,nor,sock=5","Stamina Potion,Pul Rune,Nef Rune,Flawless Emerald","Phase Blade,nor,sock=5",EXISTING
+Base Market,"Vex Rune -> Thunder Maul,nor,eth","Stamina Potion,Vex Rune,Eth Rune,Flawless Emerald","Thunder Maul,nor,eth",EXISTING
+Base Market,"Vex Rune -> Thunder Maul,nor,eth,sock=4","Stamina Potion,Vex Rune,Ith Rune,Flawless Emerald","Thunder Maul,nor,eth,sock=4",EXISTING
+Base Market,"Gul Rune -> Thunder Maul,nor,eth,sock=5","Stamina Potion,Gul Rune,Tal Rune,Flawless Emerald","Thunder Maul,nor,eth,sock=5",EXISTING
+Base Market,"Mal Rune -> Thunder Maul,nor,eth,sock=6","Stamina Potion,Mal Rune,Ral Rune,Flawless Emerald","Thunder Maul,nor,eth,sock=6",EXISTING
+Base Market,"Um Rune -> Ghost Spear,nor,eth","Stamina Potion,Um Rune,Ort Rune,Flawless Emerald","Ghost Spear,nor,eth",EXISTING
+Base Market,"Gul Rune -> War Pike,nor,eth","Stamina Potion,Gul Rune,Thul Rune,Flawless Emerald","War Pike,nor,eth",EXISTING
+Base Market,"Lem Rune -> Balrog Blade,nor,eth","Stamina Potion,Lem Rune,El Rune,Flawless Topaz","Balrog Blade,nor,eth",EXISTING
+Base Market,"Um Rune -> Balrog Blade,nor,eth,sock=4","Stamina Potion,Um Rune,Eld Rune,Flawless Topaz","Balrog Blade,nor,eth,sock=4",EXISTING
+Base Market,"Pul Rune -> Highland Blade,nor,eth,sock=4","Stamina Potion,Pul Rune,Tir Rune,Flawless Topaz","Highland Blade,nor,eth,sock=4",EXISTING
+Base Market,"Mal Rune -> Colossus Blade,nor,eth","Stamina Potion,Mal Rune,Nef Rune,Flawless Topaz","Colossus Blade,nor,eth",EXISTING
+Base Market,"Um Rune -> Colossus Blade,nor,eth,sock=4","Stamina Potion,Um Rune,Eth Rune,Flawless Topaz","Colossus Blade,nor,eth,sock=4",EXISTING
+Base Market,"Um Rune -> Colossus Blade,nor,sock=5","Stamina Potion,Um Rune,Ith Rune,Flawless Topaz","Colossus Blade,nor,sock=5",EXISTING
+Base Market,"Ist Rune -> Colossus Blade,nor,eth,sock=5","Stamina Potion,Ist Rune,Tal Rune,Flawless Topaz","Colossus Blade,nor,eth,sock=5",EXISTING
+Base Market,"Ist Rune -> Colossus Blade,nor,eth,sock=6","Stamina Potion,Ist Rune,Ral Rune,Flawless Topaz","Colossus Blade,nor,eth,sock=6",EXISTING
+Base Market,"Um Rune -> Thresher,nor,sock=4","Stamina Potion,Um Rune,Ort Rune,Flawless Topaz","Thresher,nor,sock=4",EXISTING
+Base Market,"Um Rune -> Thresher,nor,eth","Stamina Potion,Um Rune,Thul Rune,Flawless Topaz","Thresher,nor,eth",EXISTING
+Base Market,"Ohm Rune -> Thresher,nor,eth,sock=4","Stamina Potion,Ohm Rune,El Rune,Flawless Saphire","Thresher,nor,eth,sock=4",EXISTING
+Base Market,"Um Rune -> Thresher,nor,eth,sock=5","Stamina Potion,Um Rune,Eld Rune,Flawless Saphire","Thresher,nor,eth,sock=5",EXISTING
+Base Market,"Gul Rune -> Colossus Voulge,nor,eth,sock=4","Stamina Potion,Gul Rune,Tir Rune,Flawless Saphire","Colossus Voulge,nor,eth,sock=4",EXISTING
+Base Market,"Ohm Rune -> Giant Thresher,nor,eth,sock=4","Stamina Potion,Ohm Rune,Nef Rune,Flawless Saphire","Giant Thresher,nor,eth,sock=4",EXISTING
+Base Market,"Vex Rune -> Cryptic Axe,nor,sock=4","Stamina Potion,Vex Rune,Eth Rune,Flawless Saphire","Cryptic Axe,nor,sock=4",EXISTING
+Base Market,"Gul Rune -> Great Poleaxe,nor,eth,sock=4","Stamina Potion,Gul Rune,Ith Rune,Flawless Saphire","Great Poleaxe,nor,eth,sock=4",EXISTING
+Base Market,"Gul Rune -> Great Poleaxe,nor,eth,sock=5","Stamina Potion,Gul Rune,Tal Rune,Flawless Saphire","Great Poleaxe,nor,eth,sock=5",EXISTING
+Base Market,"Lem Rune -> Flail,nor,sock=3","Stamina Potion,Lem Rune,Ral Rune,Flawless Saphire","Flail,nor,sock=3",EXISTING
+Base Market,"Lem Rune -> Flail,nor,sock=4","Stamina Potion,Lem Rune,Ort Rune,Flawless Saphire","Flail,nor,sock=4",EXISTING
+Base Market,"Lem Rune -> Flail,nor,sock=5","Stamina Potion,Lem Rune,Thul Rune,Flawless Saphire","Flail,nor,sock=5",EXISTING
+Base Market,"Um Rune -> Flail,nor,eth,sock=4","Stamina Potion,Um Rune,El Rune,Flawless Ruby","Flail,nor,eth,sock=4",EXISTING
+Base Market,"Pul Rune -> Flail,nor,eth,sock=5","Stamina Potion,Pul Rune,Eld Rune,Flawless Ruby","Flail,nor,eth,sock=5",EXISTING
+Base Market,"Lem Rune -> Crystal Sword,nor,sock=4","Stamina Potion,Lem Rune,Tir Rune,Flawless Ruby","Crystal Sword,nor,sock=4",EXISTING
+Base Market,"Um Rune -> Crystal Sword,nor,sock=5","Stamina Potion,Um Rune,Nef Rune,Flawless Ruby","Crystal Sword,nor,sock=5",EXISTING
+Base Market,"Lem Rune -> Crystal Sword,nor,sock=6","Stamina Potion,Lem Rune,Eth Rune,Flawless Ruby","Crystal Sword,nor,sock=6",EXISTING
+Base Market,"Pul Rune -> Crystal Sword,nor,eth,sock=4","Stamina Potion,Pul Rune,Ith Rune,Flawless Ruby","Crystal Sword,nor,eth,sock=4",EXISTING
+Base Market,"Ist Rune -> Crystal Sword,nor,eth,sock=5","Stamina Potion,Ist Rune,Tal Rune,Flawless Ruby","Crystal Sword,nor,eth,sock=5",EXISTING
+Base Market,"Lem Rune -> Bone Visage,nor,sock=3","Stamina Potion,Lem Rune,Ral Rune,Flawless Ruby","Bone Visage,nor,sock=3",EXISTING
+Base Market,"Lem Rune -> Mage Plate,nor,sock=3","Stamina Potion,Lem Rune,Ort Rune,Flawless Ruby","Mage Plate,nor,sock=3",EXISTING
+Base Market,"Lem Rune -> Mage Plate,nor,sock=4","Stamina Potion,Lem Rune,Thul Rune,Flawless Ruby","Mage Plate,nor,sock=4",EXISTING
+Base Market,"Lem Rune -> Archon Plate,nor,sock=3","Stamina Potion,Lem Rune,El Rune,Flawless Amethyst","Archon Plate,nor,sock=3",EXISTING
+Base Market,"Lem Rune -> Archon Plate,nor,sock=4","Stamina Potion,Lem Rune,Eld Rune,Flawless Amethyst","Archon Plate,nor,sock=4",EXISTING
+Base Market,"Lem Rune -> Dusk Shroud,nor,sock=3","Stamina Potion,Lem Rune,Tir Rune,Flawless Amethyst","Dusk Shroud,nor,sock=3",EXISTING
+Base Market,"Lem Rune -> Dusk Shroud,nor,sock=4","Stamina Potion,Lem Rune,Nef Rune,Flawless Amethyst","Dusk Shroud,nor,sock=4",EXISTING
+Base Market,"Ist Rune -> Sacred Armor,nor,eth,sock=3","Stamina Potion,Ist Rune,Eth Rune,Flawless Amethyst","Sacred Armor,nor,eth,sock=3",EXISTING
+Base Market,"Ist Rune -> Sacred Armor,nor,eth,sock=4","Stamina Potion,Ist Rune,Ith Rune,Flawless Amethyst","Sacred Armor,nor,eth,sock=4",EXISTING
+Base Market,"Pul Rune -> Monarch,nor,sock=4","Stamina Potion,Pul Rune,Tal Rune,Flawless Amethyst","Monarch,nor,sock=4",EXISTING
+Base Market,"Pul Rune -> Monarch,nor,eth","Stamina Potion,Pul Rune,Ral Rune,Flawless Amethyst","Monarch,nor,eth",EXISTING
+Charm Market,Pul for Fine Small Charm,"Charm Small,Pul Rune,Flawless Diamond,Stamina Potion",Fine Small Charm,EXISTING
+Charm Market,Gul for Shimmering Small Charm,"Charm Small,Gul Rune,Flawless Diamond,Stamina Potion",Shimmering Small Charm,EXISTING
+Charm Market,Um for Small Charm of Good Luck,"Charm Small,Um Rune,Flawless Diamond,Stamina Potion",Small Charm of Good Luck,EXISTING
+Charm Market,Mal for Small Charm of Vita,"Charm Small,Mal Rune,Flawless Diamond,Stamina Potion",Small Charm of Vita,EXISTING
+Charm Market,Lem for Small Charm of Inertia,"Charm Small,Lem Rune,Flawless Diamond,Stamina Potion",Small Charm of Inertia,EXISTING
+Charm Market,Amazon Skillers,,Note: Crafted Sunder charms are found in ,EXISTING
+Charm Market,Bow,"Grand Charm, Um, El, Stamina Potion",the unique market :),EXISTING
+Charm Market,Passives,"Grand Charm, Lem, El, Stamina Potion",,EXISTING
+Charm Market,Javelins,"Grand Charm, Pul, El, Stamina Potion",,EXISTING
+Charm Market,Sorceress Skillers,,,EXISTING
+Charm Market,Fire,"Grand Charm, Um, Eld, Stamina Potion",,EXISTING
+Charm Market,Cold,"Grand Charm, Mal, Eld, Stamina Potion",,EXISTING
+Charm Market,Lightning,"Grand Charm, Gul, Eld, Stamina Potion ",,EXISTING
+Charm Market,Necromancer Skillers,,,EXISTING
+Charm Market,Curses,"Grand Charm, Lem, Tir, Stamina Potion",,EXISTING
+Charm Market,Poison and Bone,"Grand Charm, Mal, Tir, Stamina potion",,EXISTING
+Charm Market,Summons ,"Grand Charm, Um, Tir, Stamina Potion",,EXISTING
+Charm Market,Paladin,,,EXISTING
+Charm Market,Combat Arts,"Grand Charm, Gul, Nef, Stamina Potion",,EXISTING
+Charm Market,Offensive Auras,"Grand Charm, Mal, Nef, Stamina Potion",,EXISTING
+Charm Market,Defensive Auras,"Grand Charm, Lem, Nef, Stamina Potion",,EXISTING
+Charm Market,Barbarian,,,EXISTING
+Charm Market,Combat Masteries,"Grand Charm, Lem, Eth, Stamina Potion",,EXISTING
+Charm Market,Combat Skills,"Grand Charm, Pul, Eth, Stamina Potion",,EXISTING
+Charm Market,Shouts,"Grand Charm, Um, Eth, Stamina Potion",,EXISTING
+Charm Market,Druid,,,EXISTING
+Charm Market,Summons,"Grand Charm, Lem, Ith, Stamina Potion",,EXISTING
+Charm Market,Shapeshifting,"Grand Charm, Um, Ith, Stamina Potion ",,EXISTING
+Charm Market,Elementals ,"Grand Charm, Mal, Ith, Stamina Potion",,EXISTING
+Charm Market,"
+",,,EXISTING
+Charm Market,Assassin,,,EXISTING
+Charm Market,Traps,"Grand Charm, Mal, Tal, Stamina Potion",,EXISTING
+Charm Market,Disciplines,"Grand Charm, Pul, Tal, Stamina Potion",,EXISTING
+Charm Market,Martial Arts,"Grand Charm, Um, Tal, Stamina Potion",,EXISTING
+Charm Market,Warlock,,,EXISTING
+Charm Market,Chaos,"Grand Charm, Gul, Ral, Stamina Potion",,EXISTING
+Charm Market,Eldrich,"Grand Charm, Vex, Ral, Stamina Potion",,EXISTING
+Charm Market,Demons,"Grand Charm, Ist, Ral, Stamina Potion",,EXISTING
+Services Market,Lazruk Quest,"Any socketable item with no sockets, Mal Rune, Stamina Potion, Identity Scroll, Town Portal Scroll",Item Socketed to the maximum of what the player and item can do,EXISTING
+Services Market,Removes and preserves gems and items,"Any Socketed Item,Token of Absolution,Thawing Potion","useitem,rem",EXISTING
+Classic Sunder,Um Rune -> Cold Rupture,"Stamina Potion,Um Rune,Charm Grand,Flawless Saphire",Cold Rupture,EXISTING
+Classic Sunder,Cold Rupture -> Pul Rune,"Antidote Potion,Cold Rupture",Pul Rune,EXISTING
+Classic Sunder,Um Rune -> Flame Rift,"Stamina Potion,Um Rune,Charm Grand,Flawless Ruby",Flame Rift,EXISTING
+Classic Sunder,Flame Rift -> Pul Rune,"Antidote Potion,Flame Rift",Pul Rune,EXISTING
+Classic Sunder,Um Rune -> Crack of the Heavens,"Stamina Potion,Um Rune,Charm Grand,Flawless Diamond",Crack of the Heavens,EXISTING
+Classic Sunder,Crack of the Heavens -> Pul Rune,"Antidote Potion,Crack of the Heavens",Pul Rune,EXISTING
+Classic Sunder,Um Rune -> Rotting Fissure,"Stamina Potion,Um Rune,Charm Grand,Flawless Emerald",Rotting Fissure,EXISTING
+Classic Sunder,Rotting Fissure -> Pul Rune,"Antidote Potion,Rotting Fissure",Pul Rune,EXISTING
+Classic Sunder,Um Rune -> Bone Break,"Stamina Potion,Um Rune,Charm Grand,Flawless Skull",Bone Break,EXISTING
+Classic Sunder,Bone Break -> Pul Rune,"Antidote Potion,Bone Break",Pul Rune,EXISTING
+Classic Sunder,Um Rune -> Black Cleft,"Stamina Potion,Um Rune,Charm Grand,Flawless Amethyst",Black Cleft,EXISTING
+Classic Sunder,Black Cleft -> Pul Rune,"Antidote Potion,Black Cleft",Pul Rune,EXISTING
+UniqueSet Market,Buy Eth Titan's Revenge,"Jah Rune, Matriarchal Javelin, Stamina Potion, Identify Scroll",Unique Ethereal Matriarchal Javelin,NEW
+UniqueSet Market,Sell Eth Titan's Revenge,"Unique Ethereal Matriarchal Javelin, Antidote Potion",Ber Rune,NEW
+UniqueSet Market,Buy Eth Death's Web,"Jah Rune, Unearthed Wand, Stamina Potion, Identify Scroll",Unique Ethereal Unearthed Wand,NEW
+UniqueSet Market,Sell Eth Death's Web,"Unique Ethereal Unearthed Wand, Antidote Potion",Ber Rune,NEW
+UniqueSet Market,Buy Eth Tomb Reaver,"Lo Rune, Phase Blade, Stamina Potion, Town Portal Scroll",Unique Ethereal Phase Blade,NEW
+UniqueSet Market,Sell Eth Tomb Reaver,"Unique Ethereal Phase Blade, Antidote Potion",Ohm Rune,NEW
+UniqueSet Market,Buy Eth Death Cleaver,"Ohm Rune, Berserker Axe, Stamina Potion, Town Portal Scroll",Unique Ethereal Berserker Axe,NEW
+UniqueSet Market,Sell Eth Death Cleaver,"Unique Ethereal Berserker Axe, Antidote Potion",Vex Rune,NEW
+UniqueSet Market,Buy Eth Reaper's Toll,"Ohm Rune, Colossus Voulge, Stamina Potion, Town Portal Scroll",Unique Ethereal Colossus Voulge,NEW
+UniqueSet Market,Sell Eth Reaper's Toll,"Unique Ethereal Colossus Voulge, Antidote Potion",Vex Rune,NEW
+UniqueSet Market,Buy Eth Sandstorm Trek,"Gul Rune, Scarabshell Boots, Stamina Potion, Town Portal Scroll",Unique Ethereal Scarabshell Boots,NEW
+UniqueSet Market,Sell Eth Sandstorm Trek,"Unique Ethereal Scarabshell Boots, Antidote Potion",Ist Rune,NEW
+UniqueSet Market,Buy Eth Gladiator's Bane,"Mal Rune, Shadow Plate, Stamina Potion, Town Portal Scroll",Unique Ethereal Shadow Plate,NEW
+UniqueSet Market,Sell Eth Gladiator's Bane,"Unique Ethereal Shadow Plate, Antidote Potion",Um Rune,NEW
+UniqueSet Market,Buy Eth Duriel's Shell,"Gul Rune, Shadow Plate, Stamina Potion, Identify Scroll",Unique Ethereal Shadow Plate,NEW
+UniqueSet Market,Sell Eth Duriel's Shell,"Unique Ethereal Shadow Plate, Antidote Potion",Ist Rune,NEW
+UniqueSet Market,Buy Eth Herald of Zakarum,"Lo Rune, Gilded Shield, Stamina Potion, Identify Scroll",Unique Ethereal Gilded Shield,NEW
+UniqueSet Market,Sell Eth Herald of Zakarum,"Unique Ethereal Gilded Shield, Antidote Potion",Ohm Rune,NEW
+UniqueSet Market,Buy Eth Shaftstop,"Mal Rune, Wire Fleece, Stamina Potion, Town Portal Scroll",Unique Ethereal Wire Fleece,NEW
+UniqueSet Market,Sell Eth Shaftstop,"Unique Ethereal Wire Fleece, Antidote Potion",Um Rune,NEW
+UniqueSet Market,Buy Eth Hone Sundan,"Um Rune, Thresher, Stamina Potion, Identify Scroll",Unique Ethereal Thresher,NEW
+UniqueSet Market,Sell Eth Hone Sundan,"Unique Ethereal Thresher, Antidote Potion",Pul Rune,NEW
+Endgame Market,Key Bundle (2 Ist),"Ist Rune,qty=2, Stamina Potion","Key of Terror, Key of Hate, Key of Destruction",NEW
+Endgame Market,Buy Twisted Essence,"Pul Rune, Stamina Potion, Identify Scroll",Twisted Essence of Suffering,NEW
+Endgame Market,Buy Charged Essence,"Pul Rune, Stamina Potion, Town Portal Scroll",Charged Essence of Hatred,NEW
+Endgame Market,Buy Burning Essence,"Pul Rune, Stamina Potion, Thawing Potion",Burning Essence of Terror,NEW
+Endgame Market,Buy Festering Essence,"Pul Rune, Stamina Potion, Perfect Amethyst",Festering Essence of Destruction,NEW
+Endgame Market,Sell Twisted Essence,"Twisted Essence of Suffering, Antidote Potion",Lem Rune,NEW
+Endgame Market,Sell Charged Essence,"Charged Essence of Hatred, Antidote Potion",Lem Rune,NEW
+Endgame Market,Sell Burning Essence,"Burning Essence of Terror, Antidote Potion",Lem Rune,NEW
+Endgame Market,Sell Festering Essence,"Festering Essence of Destruction, Antidote Potion",Lem Rune,NEW
+Endgame Market,Buy Mephisto Brain,"Vex Rune, Stamina Potion, Identify Scroll",Mephisto's Brain,NEW
+Endgame Market,Buy Diablo Horn,"Vex Rune, Stamina Potion, Town Portal Scroll",Diablo's Horn,NEW
+Endgame Market,Buy Baal Eye,"Vex Rune, Stamina Potion, Thawing Potion",Baal's Eye,NEW
+Endgame Market,Sell Mephisto Brain,"Mephisto's Brain, Antidote Potion",Ist Rune,NEW
+Endgame Market,Sell Diablo Horn,"Diablo's Horn, Antidote Potion",Ist Rune,NEW
+Endgame Market,Sell Baal Eye,"Baal's Eye, Antidote Potion",Ist Rune,NEW
+Base Market,r21 -> Monarch 4os,"Stamina Potion, Pul Rune, El Rune, Flawless Skull",4 Sockets Mage Plate,NEW
+Base Market,r23 -> Eth Monarch 4os,"Stamina Potion, Mal Rune, Eld Rune, Flawless Skull",Ethereal 4 Sockets Mage Plate,NEW
+Base Market,r24 -> Eth Dusk Shroud 3os,"Stamina Potion, Ist Rune, Tir Rune, Flawless Skull",Ethereal 3 Sockets Dusk Shroud,NEW
+Base Market,r24 -> Eth Archon Plate 3os,"Stamina Potion, Ist Rune, Nef Rune, Flawless Skull",Ethereal 3 Sockets Archon Plate,NEW
+Base Market,r25 -> Eth Archon Plate 4os,"Stamina Potion, Gul Rune, Eth Rune, Flawless Skull",Ethereal 4 Sockets Archon Plate,NEW
+Base Market,r21 -> Wyrmhide 3os,"Stamina Potion, Pul Rune, Ith Rune, Flawless Skull",3 Sockets Wyrmhide,NEW
+Base Market,r27 -> Eth Berserker Axe 6os,"Stamina Potion, Ohm Rune, Tal Rune, Flawless Skull",Ethereal 6 Sockets Berserker Axe,NEW
+Base Market,r22 -> Eth Cryptic Axe 5os,"Stamina Potion, Um Rune, Ral Rune, Flawless Skull",Ethereal 5 Sockets Cryptic Axe,NEW
+Base Market,r22 -> Eth Giant Thresher,"Stamina Potion, Um Rune, Ort Rune, Flawless Skull",Ethereal Giant Thresher,NEW
+Base Market,r20 -> Broad Sword 4os,"Stamina Potion, Lem Rune, Thul Rune, Flawless Skull",4 Sockets Broad Sword,NEW
+Services Market,Reroll Grand Charm,"Grand Charm, Pul Rune, Perfect Amethyst",Magic Grand Charm,NEW
+Services Market,Reroll Small Charm,"Small Charm, Lem Rune, Perfect Amethyst",Magic Small Charm,NEW
+Services Market,Imbue Weapon,"No Sockets Weapon, Mal Rune, Perfect Amethyst",Item (Rare),NEW
+Services Market,Imbue Armor,"No Sockets Body Armor, Mal Rune, Perfect Amethyst",Item (Rare),NEW
+Services Market,Imbue Helm,"No Sockets Helm, Mal Rune, Perfect Amethyst",Item (Rare),NEW
+Services Market,Imbue Shield,"No Sockets Shield, Mal Rune, Perfect Amethyst",Item (Rare),NEW
+Services Market,Repair and Recharge,"any,rep, Lem Rune, Ort Rune",Item (Modified),NEW
+Services Market,Bulk Full Rejuvs,"Lem Rune,qty=3, Stamina Potion","Full Rejuvenation Potion, Full Rejuvenation Potion, Full Rejuvenation Potion",NEW
+Jewel Market,Buy Fire Facet,"Ist Rune, Jewel, Stamina Potion, Flawless Ruby",Unique Jewel,NEW
+Jewel Market,Sell Fire Facet,"Unique Jewel, Antidote Potion, Flawless Ruby",Mal Rune,NEW
+Jewel Market,Buy Cold Facet,"Ist Rune, Jewel, Stamina Potion, Flawless Sapphire",Unique Jewel,NEW
+Jewel Market,Sell Cold Facet,"Unique Jewel, Antidote Potion, Flawless Sapphire",Mal Rune,NEW
+Jewel Market,Buy Lightning Facet,"Gul Rune, Jewel, Stamina Potion, Flawless Diamond",Unique Jewel,NEW
+Jewel Market,Sell Lightning Facet,"Unique Jewel, Antidote Potion, Flawless Diamond",Ist Rune,NEW
+Jewel Market,Buy Poison Facet,"Ist Rune, Jewel, Stamina Potion, Flawless Emerald",Unique Jewel,NEW
+Jewel Market,Sell Poison Facet,"Unique Jewel, Antidote Potion, Flawless Emerald",Mal Rune,NEW
+Jewel Market,Buy 15IAS/40ED Jewel,"Ber Rune, Jewel, Stamina Potion, Perfect Diamond",Rare Jewel,NEW
+Jewel Market,Sell 15IAS/40ED Jewel,"Rare Jewel, Antidote Potion, Perfect Diamond",Lo Rune,NEW
+Jewel Market,Buy 15IAS/30ED Jewel,"Ohm Rune, Jewel, Stamina Potion, Perfect Emerald",Rare Jewel,NEW
+Jewel Market,Sell 15IAS/30ED Jewel,"Rare Jewel, Antidote Potion, Perfect Emerald",Vex Rune,NEW
+Rare Items Market,Buy +2 Sorc 20FCR Circlet,"Ber Rune, Diadem, Stamina Potion, Eld Rune",Rare Diadem,NEW
+Rare Items Market,Sell +2 Sorc 20FCR Circlet,"Rare Diadem, Antidote Potion, Eld Rune",Lo Rune,NEW
+Rare Items Market,Buy +2 Pally 20FCR Circlet,"Ber Rune, Diadem, Stamina Potion, Nef Rune",Rare Diadem,NEW
+Rare Items Market,Sell +2 Pally 20FCR Circlet,"Rare Diadem, Antidote Potion, Nef Rune",Lo Rune,NEW
+Rare Items Market,Buy +2 Amazon 20FCR Circlet,"Lo Rune, Diadem, Stamina Potion, El Rune",Rare Diadem,NEW
+Rare Items Market,Sell +2 Amazon 20FCR Circlet,"Rare Diadem, Antidote Potion, El Rune",Ohm Rune,NEW
+Rare Items Market,Buy +2 Necro 20FCR Circlet,"Lo Rune, Diadem, Stamina Potion, Tir Rune",Rare Diadem,NEW
+Rare Items Market,Sell +2 Necro 20FCR Circlet,"Rare Diadem, Antidote Potion, Tir Rune",Ohm Rune,NEW
+Rare Items Market,Buy +2 Druid 20FCR Circlet,"Lo Rune, Diadem, Stamina Potion, Ith Rune",Rare Diadem,NEW
+Rare Items Market,Sell +2 Druid 20FCR Circlet,"Rare Diadem, Antidote Potion, Ith Rune",Ohm Rune,NEW
+Rare Items Market,Buy Tri-Res FRW Boots,"Ohm Rune, Scarabshell Boots, Stamina Potion, Perfect Diamond",Rare Scarabshell Boots,NEW
+Rare Items Market,Sell Tri-Res FRW Boots,"Rare Scarabshell Boots, Antidote Potion, Perfect Diamond",Vex Rune,NEW
+Rare Items Market,Buy Dual Leech Ring,"Gul Rune, Ring, Stamina Potion, Perfect Diamond",Rare Ring,NEW
+Rare Items Market,Sell Dual Leech Ring,"Rare Ring, Antidote Potion, Perfect Diamond",Ist Rune,NEW
+Rare Items Market,Buy 2/20 Java Gloves,"Ohm Rune, Vambraces, Stamina Potion, Perfect Emerald",Rare Vambraces,NEW
+Rare Items Market,Sell 2/20 Java Gloves,"Rare Vambraces, Antidote Potion, Perfect Emerald",Vex Rune,NEW
+Rare Items Market,Buy +2/20 FCR Amulet,"Sur Rune, Amulet, Stamina Potion, Perfect Diamond",Rare Amulet,NEW
+Rare Items Market,Sell +2/20 FCR Amulet,"Rare Amulet, Antidote Potion, Perfect Diamond",Ohm Rune,NEW
+Rare Items Market,Buy MF Tri-Res Boots,"Ohm Rune, Scarabshell Boots, Stamina Potion, Perfect Emerald",Rare Scarabshell Boots,NEW
+Rare Items Market,Sell MF Tri-Res Boots,"Rare Scarabshell Boots, Antidote Potion, Perfect Emerald",Vex Rune,NEW
+Rare Items Market,Buy FCR Ring,"Gul Rune, Ring, Stamina Potion, Perfect Emerald",Rare Ring,NEW
+Rare Items Market,Sell FCR Ring,"Rare Ring, Antidote Potion, Perfect Emerald",Ist Rune,NEW
+Crafted Items Market,Buy Caster Amulet,"Gul Rune, Amulet, Stamina Potion, Flawless Ruby",Rare Amulet,NEW
+Crafted Items Market,Sell Caster Amulet,"Rare Amulet, Antidote Potion, Flawless Ruby",Ist Rune,NEW
+Crafted Items Market,Buy Caster Belt,"Mal Rune, Vampirefang Belt, Stamina Potion, Flawless Ruby",Rare Vampirefang Belt,NEW
+Crafted Items Market,Sell Caster Belt,"Rare Vampirefang Belt, Antidote Potion, Flawless Ruby",Um Rune,NEW
+Crafted Items Market,Buy Blood Gloves,"Ist Rune, Vambraces, Stamina Potion, Flawless Ruby",Rare Vambraces,NEW
+Crafted Items Market,Sell Blood Gloves,"Rare Vambraces, Antidote Potion, Flawless Ruby",Mal Rune,NEW
+Crafted Items Market,Buy Blood Ring,"Mal Rune, Ring, Stamina Potion, Flawless Ruby",Rare Ring,NEW
+Crafted Items Market,Sell Blood Ring,"Rare Ring, Antidote Potion, Flawless Ruby",Um Rune,NEW
+Crafted Items Market,Buy Blood Amulet,"Ist Rune, Amulet, Stamina Potion, Flawless Sapphire",Rare Amulet,NEW
+Crafted Items Market,Sell Blood Amulet,"Rare Amulet, Antidote Potion, Flawless Sapphire",Mal Rune,NEW
+Crafted Items Market,Buy Hit Power Gloves,"Mal Rune, Vambraces, Stamina Potion, Flawless Sapphire",Rare Vambraces,NEW
+Crafted Items Market,Sell Hit Power Gloves,"Rare Vambraces, Antidote Potion, Flawless Sapphire",Um Rune,NEW
+Crafted Items Market,Buy Safety Amulet,"Um Rune, Amulet, Stamina Potion, Flawless Emerald",Rare Amulet,NEW
+Crafted Items Market,Sell Safety Amulet,"Rare Amulet, Antidote Potion, Flawless Emerald",Pul Rune,NEW
+Crafted Items Market,Buy Safety Shield,"Um Rune, Mage Plate, Stamina Potion, Flawless Emerald",Rare Mage Plate,NEW
+Crafted Items Market,Sell Safety Shield,"Rare Mage Plate, Antidote Potion, Flawless Emerald",Pul Rune,NEW
+Gambling,Mystery Ring,"Mal Rune, Ring, Perfect Amethyst",Unique Ring,NEW
+Gambling,Mystery Amulet,"Mal Rune, Amulet, Perfect Amethyst",Unique Amulet,NEW
+Gambling,Mystery Helm,"Mal Rune, Helm, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Mystery Armor,"Ist Rune, Body Armor, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Mystery Weapon,"Ist Rune, Weapon, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Mystery Shield,"Mal Rune, Shield, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Mystery Gloves,"Um Rune, Gloves, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Mystery Boots,"Um Rune, Boots, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Mystery Belt,"Um Rune, Belt, Perfect Amethyst",Item (Random Unique),NEW
+Gambling,Gem Jackpot,"Pul Rune, Chipped Amethyst,qty=3, Stamina Potion","Perfect Diamond, Perfect Ruby, Perfect Emerald",NEW

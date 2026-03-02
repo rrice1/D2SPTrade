@@ -1,0 +1,107 @@
+{
+  "name": "Single Player Trading Market",
+  "description": "A utility to roughly incorporate the multiplayer trading economy responsibly into single player.",
+  "author": "Sappho",
+  "website": "https://github.com/SapphoPaige/Single-Player-Trading-Market",
+  "version": "0.8",
+  "config": [
+    {
+      "id": "ecoRunes",
+      "type": "checkbox",
+      "name": "Rune Market",
+      "description": "Enables rune conversions that align with online pricing.",
+      "defaultValue": true
+    },
+    {
+      "id": "uniqueMarket",
+      "type": "checkbox",
+      "name": "Unique and Set Trades",
+      "description": "Enables the buying and selling of valuable uniques, including ethereal variants.",
+      "defaultValue": true
+    },
+    {
+      "id": "junkMarket",
+      "type": "checkbox",
+      "name": "Junk Trades",
+      "description": "Enables the buying and selling of low value items.",
+      "defaultValue": true
+    },
+    {
+      "id": "torchMarket",
+      "type": "checkbox",
+      "name": "Endgame Market",
+      "description": "Enables the buying and selling of Keys, Uber Statues, Torches, Essences, and Organs.",
+      "defaultValue": true
+    },
+    {
+      "id": "gemMarket",
+      "type": "checkbox",
+      "name": "Gem Trades",
+      "description": "Enables the buying and selling of Gems and bulk runes.",
+      "defaultValue": true
+    },
+    {
+      "id": "baseMarket",
+      "type": "checkbox",
+      "name": "Runeword Bases",
+      "description": "Enables the buying of common Runeword Bases including Monarch, eth armors, and more.",
+      "defaultValue": true
+    },
+    {
+      "id": "magicMarket",
+      "type": "checkbox",
+      "name": "Charms",
+      "description": "Enables the buying of Charms and other magic items.",
+      "defaultValue": true
+    },
+    {
+      "id": "servicesMarket",
+      "type": "checkbox",
+      "name": "Services",
+      "description": "Enables Larzuk socketing, unsocketing, imbue, charm rerolling, and other services.",
+      "defaultValue": true
+    },
+    {
+      "id": "classicSunder",
+      "type": "checkbox",
+      "name": "Classic Sunder Charms",
+      "description": "Enables the buying and selling of classic sunder charms.",
+      "defaultValue": true
+    },
+    {
+      "id": "jewelMarket",
+      "type": "checkbox",
+      "name": "Jewel Trades",
+      "description": "Enables buying and selling specific Rainbow Facet types and rare IAS/ED jewels.",
+      "defaultValue": true
+    },
+    {
+      "id": "rareMarket",
+      "type": "checkbox",
+      "name": "Rare Item Trades",
+      "description": "Enables buying GG rare circlets, boots, rings, gloves, and amulets with guaranteed mods.",
+      "defaultValue": true
+    },
+    {
+      "id": "craftedMarket",
+      "type": "checkbox",
+      "name": "Crafted Item Trades",
+      "description": "Enables buying and selling popular crafted items (Caster, Blood, Hit Power, Safety).",
+      "defaultValue": true
+    },
+    {
+      "id": "gamblingMarket",
+      "type": "checkbox",
+      "name": "Gambling",
+      "description": "Enables mystery box and lottery recipes for random unique items.",
+      "defaultValue": true
+    },
+    {
+      "id": "allowRedrop",
+      "type": "checkbox",
+      "name": "Allow Redrops",
+      "description": "Disables the 'once per game' restriction on unique items. Useful for repeatedly crafting.",
+      "defaultValue": true
+    }
+  ]
+}
